@@ -18,7 +18,7 @@ order += "battery all"
 order += "tztime local"
 
 memory {
-  format = "%free %available (%used) / %total"
+  format = "%free %available (%used)"
   unit = "Gi"
 }
 
