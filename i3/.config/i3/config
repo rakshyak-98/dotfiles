@@ -51,6 +51,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+# local screen 
+bindsym Control+Shift+l exec i3lock
+
 # start a terminal
 bindsym $mod+Return exec kitty
 
