@@ -20,13 +20,13 @@ include $HOME/.config/i3/workspace.conf
 set $mod Mod4
 
 # first monitor
-set $fm eDP-1
+set $pm eDP-1
 
 # second monitor
-set $sm HDMI-1
+set $sm HDMI-2
 
 # dual monitor setup
-exec --no-startup-id xrandr --output $fm --auto --right-of $sm &
+exec --no-startup-id xrandr --output $pm --auto --above $sm &
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -145,7 +145,7 @@ set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
-set $ws6 "6"
+# set $ws6 "6"
 # set $ws7 "7"
 # set $ws8 "8"
 # set $ws9 "9"
@@ -157,7 +157,7 @@ bindsym $mod+2 workspace number $ws2
 bindsym $mod+3 workspace number $ws3
 bindsym $mod+4 workspace number $ws4
 bindsym $mod+5 workspace number $ws5
-bindsym $mod+6 workspace number $ws6
+# bindsym $mod+6 workspace number $ws6
 # bindsym $mod+7 workspace number $ws7
 # bindsym $mod+8 workspace number $ws8
 # bindsym $mod+9 workspace number $ws9
@@ -190,10 +190,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         # bindsym Left resize shrink width 10 px or 10 ppt
@@ -209,7 +209,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# background
+# set background
 exec --no-startup-id nitrogen --restore
 
 # Start i3bar to display a workspace bar (plus the system information i3status
