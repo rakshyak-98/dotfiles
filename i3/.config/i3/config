@@ -15,6 +15,7 @@
 # since i3 v4.20, it is possible to include other configuration files
 # include $HOME/.config/i3/assignments.conf
 include $HOME/.config/i3/workspace.conf
+include $HOME/.config/i3/bindsym.conf
 
 # variables
 set $mod Mod4
@@ -81,9 +82,7 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec --no-startup-id dmenu_run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-bindsym $mod+d exec --no-startup-id rofi -show drun
-bindsym $mod+space exec --no-startup-id rofi -show combi
-bindsym $mod+Tab exec --no-startup-id rofi -show window
+
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
@@ -119,7 +118,7 @@ bindsym $mod+Shift+l move right
 # bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+# bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+s layout stacking
@@ -133,7 +132,7 @@ bindsym $mod+e layout toggle split
 # bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+# bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -145,8 +144,8 @@ set $ws2 "2"
 set $ws3 "3"
 set $ws4 "4"
 set $ws5 "5"
-# set $ws6 "6"
-# set $ws7 "7"
+set $ws6 "6"
+set $ws7 "7"
 # set $ws8 "8"
 # set $ws9 "9"
 # set $ws10 "10"
@@ -157,8 +156,8 @@ bindsym $mod+2 workspace number $ws2
 bindsym $mod+3 workspace number $ws3
 bindsym $mod+4 workspace number $ws4
 bindsym $mod+5 workspace number $ws5
-# bindsym $mod+6 workspace number $ws6
-# bindsym $mod+7 workspace number $ws7
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
 # bindsym $mod+8 workspace number $ws8
 # bindsym $mod+9 workspace number $ws9
 # bindsym $mod+0 workspace number $ws10
