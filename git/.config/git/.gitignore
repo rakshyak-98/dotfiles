@@ -1,1 +1,7 @@
-.vscode
+*.vscode
+
+node_modules
+
+.DS_STORE
+.swp
+.swo
