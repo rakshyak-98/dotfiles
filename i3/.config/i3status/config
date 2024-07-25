@@ -18,15 +18,12 @@ order += "battery all"
 order += "tztime local"
 
 memory {
-        format = "%used/%total"
+        format = "Memory: %used/%total"
         unit = "Gi"
-        color_bad = "#FF0000"      # Red for high memory usage
-        color_degraded = "#FFFF00"  # Yellow for medium memory usage
-        color_good = "#00FF00"      # Green for low memory usage
 }
 
 battery all {
-        format = "%status %percentage %remaining"
+        format = "%status %percentage"
         low_threshold = 30
         threshold_type = percentage
 }
