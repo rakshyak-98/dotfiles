@@ -13,6 +13,9 @@
 0=*.jpg
 1=*.txt
 
+[inpmc.fm.menu.exec.parameter]
+0=panel
+
 [cmdline]
 0=:q
 1=Help
@@ -23,26 +26,27 @@
 6=cd ~/Documnts
 7=cd 
 8=cd
-9=ls
-10=ls -a
-11=ll
-12=clear
+9=ls -a
+10=ll
+11=clear
+12=ls
 13=
 
 [Dir Hist New Left Panel]
 0=/home/rakshyak/.pki
-1=/home/rakshyak/.config
-2=/home/rakshyak/GitHub/javascript-algorithms
-3=/home/rakshyak/.config/mc
-4=/home/rakshyak/.bytertc/monitor/realx/file_system
-5=/home/rakshyak/.bytertc/monitor/realx
-6=/home/rakshyak/.bytertc/monitor
-7=/home/rakshyak/.bytertc
-8=/home/rakshyak/.dotnet/corefx/cryptography/crls
-9=/home/rakshyak/.dotnet/corefx/cryptography
-10=/home/rakshyak/.dotnet/corefx
-11=/home/rakshyak/.dotnet
-12=/home/rakshyak/Documents
+1=/home/rakshyak/GitHub/javascript-algorithms
+2=/home/rakshyak/.bytertc/monitor/realx/file_system
+3=/home/rakshyak/.bytertc/monitor/realx
+4=/home/rakshyak/.bytertc/monitor
+5=/home/rakshyak/.bytertc
+6=/home/rakshyak/.dotnet/corefx/cryptography/crls
+7=/home/rakshyak/.dotnet/corefx/cryptography
+8=/home/rakshyak/.dotnet/corefx
+9=/home/rakshyak/.dotnet
+10=/home/rakshyak/Documents
+11=/home/rakshyak
+12=/home/rakshyak/Practice
 13=/home/rakshyak/GitHub
-14=/home/rakshyak
-15=/home/rakshyak/Practice
+14=/home/rakshyak/.config/mc
+15=/home/rakshyak/.config
+16=/home/rakshyak/.config/kitty
