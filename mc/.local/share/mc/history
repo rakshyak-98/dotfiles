@@ -1,0 +1,48 @@
+[Dir Hist New Right Panel]
+0=/home/rakshyak/.config
+1=/home/rakshyak/GitHub/javascript-algorithms
+2=/home/rakshyak/.config/mc
+3=/home/rakshyak/.local/share/mc
+4=/home/rakshyak
+
+[input]
+0=ls
+1=Documents
+
+[:select_cmd: Select ]
+0=*.jpg
+1=*.txt
+
+[cmdline]
+0=:q
+1=Help
+2=1
+3=j
+4=/public
+5=quit
+6=cd ~/Documnts
+7=cd 
+8=cd
+9=ls
+10=ls -a
+11=ll
+12=clear
+13=
+
+[Dir Hist New Left Panel]
+0=/home/rakshyak/.pki
+1=/home/rakshyak/.config
+2=/home/rakshyak/GitHub/javascript-algorithms
+3=/home/rakshyak/.config/mc
+4=/home/rakshyak/.bytertc/monitor/realx/file_system
+5=/home/rakshyak/.bytertc/monitor/realx
+6=/home/rakshyak/.bytertc/monitor
+7=/home/rakshyak/.bytertc
+8=/home/rakshyak/.dotnet/corefx/cryptography/crls
+9=/home/rakshyak/.dotnet/corefx/cryptography
+10=/home/rakshyak/.dotnet/corefx
+11=/home/rakshyak/.dotnet
+12=/home/rakshyak/Documents
+13=/home/rakshyak/GitHub
+14=/home/rakshyak/Practice
+15=/home/rakshyak
