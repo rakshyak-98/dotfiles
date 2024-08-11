@@ -1,5 +1,6 @@
 [panel]
 Down = j
 Up = k
-Left = h
-Right = l
+
+[main]
+Quit = Ctrl+w

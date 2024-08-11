@@ -95,7 +95,7 @@ xterm-kitty=
 
 [Layout]
 command_prompt=true
-free_space=true
+free_space=false
 horizontal_equal=true
 horizontal_split=false
 keybar_visible=false
@@ -154,6 +154,6 @@ tab_size=8
 
 [Panelize]
 Find *.orig after patching=find . -name \\*.orig -print
-Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
-Find rejects after patching=find . -name \\*.rej -print
 Modified git files=git ls-files --modified
+Find rejects after patching=find . -name \\*.rej -print
+Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
