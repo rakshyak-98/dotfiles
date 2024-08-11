@@ -488,6 +488,19 @@
                 "editor.action.moveLinesUpAction"
             ]
         },
+        {
+            "commands": [
+                "git.revertSelectedRanges"
+            ],
+            "before": [
+                "<leader>",
+                "g",
+                "-"
+            ],
+            "when": [
+                "isInDiffEditor && !operationInProgress"
+            ]
+        }
     ],
     "vim.handleKeys": {
         "<C-k>": false,
@@ -528,7 +541,6 @@
     "editor.cursorSurroundingLines": 5,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "breadcrumbs.icons": false,
-    "editor.minimap.enabled": false,
     "editor.fontWeight": "100",
     "terminal.integrated.fontWeight": "100",
     "terminal.integrated.fontSize": 13,
@@ -551,9 +563,11 @@
         "mozwebkit",
         "Parens",
         "Picsum",
+        "reduxjs",
         "resave",
         "stackoverflow",
         "tailwindcss",
+        "Upgrader",
         "viewsets"
     ],
     "files.autoSaveWhenNoErrors": true,
@@ -585,7 +599,6 @@
     "css.format.spaceAroundSelectorSeparator": true,
     "css.lint.universalSelector": "warning",
     "css.lint.unknownAtRules": "ignore",
-    "workbench.activityBar.location": "hidden",
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
     },
@@ -616,4 +629,9 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "window.zoomPerWindow": false,
 }

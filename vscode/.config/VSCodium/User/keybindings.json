@@ -60,16 +60,6 @@
     "command": "-workbench.action.previousEditor"
   },
   {
-    "key": "ctrl+]",
-    "command": "workbench.action.terminal.focusPrevious",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+[",
-    "command": "workbench.action.terminal.focusNext",
-    "when": "terminalFocus"
-  },
-  {
     "key": "ctrl+pagedown",
     "command": "-workbench.action.nextEditor"
   },
@@ -636,6 +626,17 @@
   {
     "key": "ctrl+alt+meta+n",
     "command": "-welcome.showNewFileEntries"
+  },
+  {
+    "key": "ctrl+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+shift+=",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.toggleMaximizedPanel"
   }
 ]
-
