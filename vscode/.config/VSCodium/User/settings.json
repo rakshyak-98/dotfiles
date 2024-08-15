@@ -50,24 +50,6 @@
     "vim.statusBarColors.easymotionmode": "#007ACC",
     "vim.statusBarColors.easymotioninputmode": "#007ACC",
     "vim.statusBarColors.surroundinputmode": "#007ACC",
-    "vim.operatorPendingModeKeyBindings": [
-        {
-            "before": [
-                "L"
-            ],
-            "after": [
-                "$"
-            ]
-        },
-        {
-            "before": [
-                "H"
-            ],
-            "after": [
-                "^"
-            ]
-        }
-    ],
     "vim.normalModeKeyBindings": [
         {
             "before": [
@@ -131,15 +113,6 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "commands": [
-                "workbench.action.openQuickChat"
-            ],
-            "before": [
-                "<leader>",
-                "q",
-            ]
-        },
-        {
-            "commands": [
                 "editor.action.marker.prev"
             ],
             "before": [
@@ -181,7 +154,7 @@
         },
         {
             "commands": [
-                "workbench.action.splitEditorLeft"
+                "workbench.action.splitEditorDown"
             ],
             "before": [
                 "<C-w>",
@@ -190,7 +163,7 @@
         },
         {
             "commands": [
-                "workbench.action.splitEditorDown"
+                "workbench.action.splitEditorLeft"
             ],
             "before": [
                 "<C-w>",
@@ -495,7 +468,7 @@
             "before": [
                 "<leader>",
                 "g",
-                "-"
+                "r"
             ],
             "when": [
                 "isInDiffEditor && !operationInProgress"
@@ -531,14 +504,14 @@
     ],
     "terminal.integrated.tabs.enabled": false,
     "prettier.printWidth": 100,
-    "prettier.endOfLine": "crlf",
+    "prettier.endOfLine": "lf",
     "window.commandCenter": false,
     "workbench.editor.editorActionsLocation": "hidden",
     "prettier.tabWidth": 4,
     "prettier.useTabs": true,
     "explorer.confirmDelete": false,
     "editor.cursorBlinking": "solid",
-    "editor.cursorSurroundingLines": 5,
+    "editor.cursorSurroundingLines": 2,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "breadcrumbs.icons": false,
     "editor.fontWeight": "100",
@@ -548,6 +521,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "cSpell.userWords": [
         "afplay",
+        "bencode",
         "Catppuccin",
         "clsx",
         "deque",
@@ -567,6 +541,7 @@
         "resave",
         "stackoverflow",
         "tailwindcss",
+        "torrentfile",
         "Upgrader",
         "viewsets"
     ],
@@ -629,9 +604,15 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
-    "launch": {
-        "configurations": [],
-        "compounds": []
-    },
     "window.zoomPerWindow": false,
+    "terminal.integrated.cursorStyle": "block",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        80,
+    ],
+    "editor.formatOnSaveMode": "modifications",
+    "go.showWelcome": false,
+    "editor.wordWrap": "bounded",
+    "workbench.activityBar.location": "hidden",
+    "autoimport.autoComplete": false,
 }
