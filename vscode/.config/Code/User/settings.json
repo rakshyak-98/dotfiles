@@ -516,7 +516,7 @@
     "breadcrumbs.icons": false,
     "editor.fontWeight": "100",
     "terminal.integrated.fontWeight": "100",
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 12,
     "extensions.ignoreRecommendations": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "cSpell.userWords": [
@@ -604,6 +604,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
+    "cody.autocomplete.enabled": false,
     "window.zoomPerWindow": false,
     "terminal.integrated.cursorStyle": "block",
     "editor.minimap.enabled": false,
@@ -613,6 +614,9 @@
     "editor.formatOnSaveMode": "modifications",
     "go.showWelcome": false,
     "editor.wordWrap": "bounded",
-    "workbench.activityBar.location": "hidden",
     "autoimport.autoComplete": false,
+    "workbench.startupEditor": "none",
+    "thunder-client.httpLibrary": "axios",
+    "thunder-client.contentType": false,
+    "thunder-client.followRedirects": false,
 }

@@ -343,7 +343,7 @@
   },
   {
     "key": "ctrl+shift+-",
-    "command": "workbench.action.terminal.new"
+    "command": "workbench.action.terminal.split"
   },
   {
     "key": "ctrl+p",
@@ -499,11 +499,6 @@
   {
     "key": "ctrl+b",
     "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "ctrl+shift+c",
-    "command": "-workbench.action.terminal.copySelection",
-    "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
   },
   {
     "key": "ctrl+shift+c",
