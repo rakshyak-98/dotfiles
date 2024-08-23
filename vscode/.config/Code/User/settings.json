@@ -604,7 +604,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
-    "cody.autocomplete.enabled": false,
+    "cody.autocomplete.enabled": true,
     "window.zoomPerWindow": false,
     "terminal.integrated.cursorStyle": "block",
     "editor.minimap.enabled": false,
