@@ -179,18 +179,6 @@
                 "<leader>"
             ],
         },
-        // vim_normal
-        {
-            "before": [
-                "<C-a>"
-            ],
-            "after": [
-                "g",
-                "g",
-                "V",
-                "G"
-            ]
-        },
         {
             "before": [
                 "n"
