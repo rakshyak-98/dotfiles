@@ -178,6 +178,7 @@
                 "<leader>",
                 "<leader>"
             ],
+            "silent": true
         },
         {
             "before": [
@@ -214,10 +215,40 @@
                 "editor.action.showHover"
             ]
         },
+        // Debugger start
         {
             "before": [
                 "<leader>",
                 "d",
+                "d"
+            ],
+            "commands": [
+                "workbench.action.debug.start"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.debug.stop"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.debug.restart"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
                 "c"
             ],
             "commands": [
@@ -231,19 +262,23 @@
         {
             "before": [
                 "<leader>",
-                "d",
                 "o"
             ],
             "commands": [
                 "workbench.action.debug.stepOver"
+            ],
+            "when": [
+                "inDebugMode"
             ],
             "silent": true
         },
         {
             "before": [
                 "<leader>",
-                "d",
                 "O"
+            ],
+            "when": [
+                "inDebugMode"
             ],
             "commands": [
                 "workbench.action.debug.stepOut"
@@ -253,14 +288,17 @@
         {
             "before": [
                 "<leader>",
-                "d",
                 "i"
+            ],
+            "when": [
+                "inDebugMode"
             ],
             "commands": [
                 "workbench.action.debug.stepInto"
             ],
             "silent": true
         },
+        // debugger end
         {
             "before": [
                 "f",
@@ -316,39 +354,6 @@
             "silent": true,
         },
         {
-            "before": [
-                "<leader>",
-                "d",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.debug.stop"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "d",
-                "d"
-            ],
-            "commands": [
-                "workbench.action.debug.start"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "d",
-                "r"
-            ],
-            "commands": [
-                "workbench.action.debug.restart"
-            ],
-            "when": [
-                "inDebugMode"
-            ]
-        },
-        {
             "commands": [
                 "workbench.action.nextEditorInGroup"
             ],
@@ -382,6 +387,7 @@
             ],
             "before": [
                 "<leader>",
+                "s",
                 "b"
             ],
             "when": [
