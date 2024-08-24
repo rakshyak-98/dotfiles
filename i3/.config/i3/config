@@ -206,7 +206,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # set background
-exec --no-startup-id feh --no-fehbg --bg-scale $HOME/background/1338084.png
+exec --no-startup-id feh --no-fehbg --bg-fill $HOME/background/1339164.png
 exec --no-startup-id picom -b
 
 # Start i3bar to display a workspace bar (plus the system information i3status
