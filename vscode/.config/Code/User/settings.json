@@ -484,8 +484,8 @@
         "announcement": "off"
     },
     "files.trimTrailingWhitespace": true,
-    "workbench.tree.indent": 16,
     "workbench.sideBar.location": "right",
+    "workbench.tree.indent": 12,
     "markdown.math.enabled": false,
     "cSpell.ignoreRegExpList": [
         "settings.json"
@@ -607,4 +607,5 @@
     "[dockercompose]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
     },
+    "workbench.activityBar.location": "hidden",
 }
