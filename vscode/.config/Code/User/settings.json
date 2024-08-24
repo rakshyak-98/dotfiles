@@ -604,7 +604,7 @@
     "editor.wordWrap": "bounded",
     "autoimport.autoComplete": false,
     "workbench.startupEditor": "none",
-    "thunder-client.httpLibrary": "axios",
-    "thunder-client.contentType": false,
-    "thunder-client.followRedirects": false,
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
 }
