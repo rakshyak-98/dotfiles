@@ -15,6 +15,7 @@ for_window [class="^.*"] border pixel 0
 # include directive
 # since i3 v4.20, it is possible to include other configuration files
 # include $HOME/.config/i3/assignments.conf
+include $HOME/.config/i3/styling.conf
 include $HOME/.config/i3/workspace.conf
 include $HOME/.config/i3/bindsym.conf
 
