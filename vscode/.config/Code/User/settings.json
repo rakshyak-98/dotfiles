@@ -109,6 +109,88 @@
                 "editor.action.referenceSearch.trigger"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "d"
+            ],
+            "commands": [
+                "workbench.action.debug.start"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.debug.stop"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.debug.restart"
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "workbench.action.debug.continue"
+            ],
+            "when": [
+                "inDebugMode"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.debug.stepOver"
+            ],
+            "when": [
+                "inDebugMode"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "O"
+            ],
+            "when": [
+                "inDebugMode"
+            ],
+            "commands": [
+                "workbench.action.debug.stepOut"
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "i"
+            ],
+            "when": [
+                "inDebugMode"
+            ],
+            "commands": [
+                "workbench.action.debug.stepInto"
+            ],
+            "silent": true
+        },
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -215,90 +297,6 @@
                 "editor.action.showHover"
             ]
         },
-        // Debugger start
-        {
-            "before": [
-                "<leader>",
-                "d",
-                "d"
-            ],
-            "commands": [
-                "workbench.action.debug.start"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "d",
-                "s"
-            ],
-            "commands": [
-                "workbench.action.debug.stop"
-            ]
-        },
-        {
-            "before": [
-                "<leader>",
-                "d",
-                "r"
-            ],
-            "commands": [
-                "workbench.action.debug.restart"
-            ],
-        },
-        {
-            "before": [
-                "<leader>",
-                "c"
-            ],
-            "commands": [
-                "workbench.action.debug.continue"
-            ],
-            "when": [
-                "inDebugMode"
-            ],
-            "silent": true
-        },
-        {
-            "before": [
-                "<leader>",
-                "o"
-            ],
-            "commands": [
-                "workbench.action.debug.stepOver"
-            ],
-            "when": [
-                "inDebugMode"
-            ],
-            "silent": true
-        },
-        {
-            "before": [
-                "<leader>",
-                "O"
-            ],
-            "when": [
-                "inDebugMode"
-            ],
-            "commands": [
-                "workbench.action.debug.stepOut"
-            ],
-            "silent": true
-        },
-        {
-            "before": [
-                "<leader>",
-                "i"
-            ],
-            "when": [
-                "inDebugMode"
-            ],
-            "commands": [
-                "workbench.action.debug.stepInto"
-            ],
-            "silent": true
-        },
-        // debugger end
         {
             "before": [
                 "f",
@@ -393,7 +391,7 @@
             "when": [
                 "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
             ]
-        }
+        },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -490,7 +488,6 @@
         "announcement": "off"
     },
     "files.trimTrailingWhitespace": true,
-    "workbench.sideBar.location": "right",
     "workbench.tree.indent": 12,
     "markdown.math.enabled": false,
     "cSpell.ignoreRegExpList": [
@@ -555,7 +552,7 @@
     "files.eol": "\n",
     "cody.commandCodeLenses": false,
     "cody.commandHints.enabled": false,
-    "cody.codeActions.enabled": true,
+    "cody.codeActions.enabled": false,
     "editor.wordBasedSuggestions": "currentDocument",
     "javascript.suggestionActions.enabled": false,
     "typescript.suggestionActions.enabled": false,
@@ -598,12 +595,12 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
-    "cody.autocomplete.enabled": true,
+    "cody.autocomplete.enabled": false,
     "window.zoomPerWindow": false,
     "terminal.integrated.cursorStyle": "block",
     "editor.minimap.enabled": false,
     "editor.rulers": [
-        80,
+        120,
     ],
     "editor.formatOnSaveMode": "modifications",
     "go.showWelcome": false,
@@ -614,4 +611,9 @@
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
     },
     "workbench.activityBar.location": "hidden",
+    "editor.inlayHints.enabled": "off",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.codeActionWidget.includeNearbyQuickFixes": false,
+    "workbench.sideBar.location": "right",
+    "explorer.compactFolders": false,
 }
