@@ -591,7 +591,6 @@
     "editor.inlineSuggest.suppressSuggestions": true,
     "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 14,
-    "workbench.colorTheme": "Gatito Theme",
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
@@ -616,4 +615,5 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
+    "workbench.colorTheme": "Default Dark+",
 }
