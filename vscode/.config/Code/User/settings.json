@@ -615,5 +615,4 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
-    "workbench.colorTheme": "Default Dark+",
 }
