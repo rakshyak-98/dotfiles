@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-for_window [class="^.*"] border pixel 0 
+# for_window [class="^.*"] border pixel 0 
 # for_window [class="^.*"] padding pixel 10 
 
 # include directive
