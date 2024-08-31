@@ -494,7 +494,7 @@
         "settings.json"
     ],
     "terminal.integrated.tabs.enabled": false,
-    "prettier.printWidth": 100,
+    "prettier.printWidth": 80,
     "prettier.endOfLine": "lf",
     "window.commandCenter": false,
     "workbench.editor.editorActionsLocation": "hidden",
@@ -536,7 +536,6 @@
         "Upgrader",
         "viewsets"
     ],
-    "files.autoSaveWhenNoErrors": true,
     "window.customTitleBarVisibility": "auto",
     "workbench.layoutControl.enabled": false,
     "window.menuBarVisibility": "toggle",
@@ -599,12 +598,11 @@
     "terminal.integrated.cursorStyle": "block",
     "editor.minimap.enabled": false,
     "editor.rulers": [
-        120,
+        80,
     ],
     "editor.formatOnSaveMode": "modifications",
     "go.showWelcome": false,
     "editor.wordWrap": "bounded",
-    "autoimport.autoComplete": false,
     "workbench.startupEditor": "none",
     "[dockercompose]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
