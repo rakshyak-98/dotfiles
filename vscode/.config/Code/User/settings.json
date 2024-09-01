@@ -473,7 +473,7 @@
         "<C-f>": false,
     },
     //terminal
-    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.linux": "fish",
     // mis
     "merge-conflict.diffViewPosition": "Beside",
     "extensions.experimental.affinity": {
@@ -613,4 +613,5 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
+    "workbench.colorTheme": "Gruvbox Material Dark",
 }
