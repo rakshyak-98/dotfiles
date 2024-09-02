@@ -636,10 +636,6 @@
   },
   {
     "key": "ctrl+w",
-    "command": "-workbench.action.closeActiveEditor"
-  },
-  {
-    "key": "ctrl+w",
     "command": "-workbench.action.closeGroup",
     "when": "activeEditorGroupEmpty && multipleEditorGroups"
   },
@@ -652,6 +648,11 @@
     "key": "ctrl+q",
     "command": "-extension.vim_winCtrlQ",
     "when": "editorTextFocus && vim.active && vim.use<C-q> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "workbench.action.closeActiveEditor",
+    "when": "!terminal.active'"
   },
   {
     "key": "ctrl+q",
