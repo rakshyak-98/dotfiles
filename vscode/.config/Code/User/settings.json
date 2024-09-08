@@ -622,6 +622,6 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
-    "workbench.iconTheme": null,
-    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.colorTheme": "GitHub Dark",
+    "go.toolsManagement.autoUpdate": true,
 }
