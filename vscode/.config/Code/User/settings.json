@@ -516,7 +516,7 @@
     "breadcrumbs.icons": false,
     "editor.fontWeight": "100",
     "terminal.integrated.fontWeight": "100",
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 13,
     "extensions.ignoreRecommendations": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "cSpell.userWords": [
@@ -622,6 +622,11 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
-    "workbench.colorTheme": "GitHub Dark",
     "go.toolsManagement.autoUpdate": true,
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "kitty",
+    "terminal.integrated.cursorStyleInactive": "block",
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "terminal.integrated.fontWeightBold": "300",
+    "editor.suggest.showValues": false,
 }

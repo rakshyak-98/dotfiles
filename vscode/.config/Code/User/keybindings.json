@@ -231,7 +231,7 @@
   },
   {
     "key": "ctrl+backspace",
-    "command": "-deleteWordLeft",
+    "command": "deleteWordLeft",
     "when": "textInputFocus && !editorReadonly"
   },
   {
