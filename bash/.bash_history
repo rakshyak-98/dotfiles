@@ -294,3 +294,8 @@ source .profile
 clear
 ls -a
 clear
+source .profile
+clear
+ls -a
+clear
+exit

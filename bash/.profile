@@ -27,4 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 . "$HOME/.cargo/env"
 
-PS1='\[\e[1;34m\]➜ \W \[\e[1;35m\]$(__git_ps1 " (%s)")\[\e[0m\]\$ '
+PS1='\[\e[1;34m\]➜ \W \[\e[1;35m\]$(__git_ps1 "(%s)")\[\e[0m\]\$ '
