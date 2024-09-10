@@ -239,7 +239,7 @@
             ],
             "before": [
                 "<leader>",
-                "p",
+                "f",
                 "f"
             ]
         },
@@ -359,24 +359,6 @@
                 "git.openChange"
             ],
             "silent": true,
-        },
-        {
-            "commands": [
-                "workbench.action.nextEditorInGroup"
-            ],
-            "before": [
-                "]"
-            ],
-            "silent": true
-        },
-        {
-            "commands": [
-                "workbench.action.previousEditorInGroup"
-            ],
-            "before": [
-                "["
-            ],
-            "silent": true
         },
         {
             "commands": [
