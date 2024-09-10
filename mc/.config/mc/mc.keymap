@@ -1,6 +1,0 @@
-[panel]
-Down = j
-Up = k
-
-[main]
-Quit = Ctrl+w

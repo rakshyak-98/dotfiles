@@ -464,7 +464,7 @@
         "<C-f>": false,
     },
     //terminal
-    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.defaultProfile.linux": "bash",
     // mis
     "merge-conflict.diffViewPosition": "Beside",
     "extensions.experimental.affinity": {
@@ -579,7 +579,6 @@
     "terminal.integrated.enablePersistentSessions": false,
     "files.trimFinalNewlines": true,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
     "editor.fontSize": 14,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
@@ -605,10 +604,8 @@
     "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
     "go.toolsManagement.autoUpdate": true,
-    "terminal.explorerKind": "external",
-    "terminal.external.linuxExec": "kitty",
     "terminal.integrated.cursorStyleInactive": "block",
     "terminal.integrated.drawBoldTextInBrightColors": false,
-    "terminal.integrated.fontWeightBold": "300",
+    "terminal.integrated.fontWeightBold": "100",
     "editor.suggest.showValues": false,
 }

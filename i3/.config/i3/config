@@ -71,7 +71,7 @@ bindsym XF86AudioMicMute exec --no-startup-id amixer set Capture toggle &&
 # bindsym Control+Shift+l exec i3lock
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec gnome-terminal  
 
 # kill focused window
 bindsym $mod+Shift+q kill
