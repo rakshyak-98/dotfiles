@@ -591,3 +591,392 @@ cd i3/.config/i3
 ls
 nvim bindsym.conf
 exit
+nvim -g install neovim
+clear
+npm -g install neovim
+celar
+pnpm
+clear
+pnpm -g install neovim
+pnpm update
+pnpm
+clear
+pnpm update
+pnpm -g update
+clear
+pnpm list
+clear
+pnpm -g list
+clear
+pip install neovim
+clear
+pip install 
+pip list
+clear
+pip install neovim
+clear
+pip search neovim
+clear
+pip search
+clear
+pyton3 -m pip install --user --upgrade pynvim
+pip install --user --upgrade pynvim
+python3 -m pip install --user --upgrade pynvim
+sudo apt install python3-pip
+sudo apt install python3-pynvim
+clear
+gem
+sudo isntall ruby-rubygems
+sudo apt install ruby-rubygems
+clear
+gem install neovim
+gem
+gem install neovim
+sduo gem install neovim
+sudo gem install neovim
+sudo apt install ruby-dev ruby-devel
+sudo gem install ruby-dev ruby-devel
+gem install ruby-developer ruby-development-toolbox
+gem install ruby-developer
+clear
+echo $VIMRUNTIME
+celar
+clear
+cd .dotfiles
+ls
+cd nvim
+ls
+cd share
+ls
+cd ..
+cd lib
+ls
+cd nvim/
+ls
+cd ..
+clear
+ls
+cd nvim/
+ls
+rm init.lua 
+clear
+ls -a
+clear
+cd ..
+cd share
+lscd ..
+cd ..
+ls
+cd share
+ls
+cd nvim
+ls
+cd runtime/
+clear
+ls -a
+clear
+git status
+clear
+sudo apt remove gem
+clear
+ls -a
+celar
+clear
+cd
+find gem
+clear
+ls
+la
+celar
+clear
+git status
+clear
+git status
+clear
+cd .dotfiles/
+clear
+git status
+git restore .
+git status
+clear
+git status
+git restore nvim-config/
+clear
+ls
+clear
+rm -rf nvim-config/
+clear
+git status
+clear
+git status
+clear
+ls
+rm -rf nvim
+clear
+ls -a
+mkdir nvim
+clear
+mkdir nvim-config
+clear
+ls
+cd nvim-config/
+clear
+mkdir -p .config/nvim
+clear
+cd .config/nvim/
+clear
+touch init.lua
+clear
+ls
+clear
+ls -a
+cealr
+clear
+ls
+mkdir lua
+cd lua
+clear
+mkdir configs
+cd configs/
+clear
+touch lazy.lua
+clear
+cd ..
+touch options.lua
+clear
+ls -a
+clear
+ls -a
+ls
+cd 
+clear
+cd .dotfiles/
+clear
+cd nvim
+cd share
+ls
+cd nvim/
+ls
+cd ..
+clear
+cd ..
+clear
+ls
+clear
+ls -a
+clear
+cd ..
+ls
+cd nvim
+ls
+clear
+ls -a
+clear
+git status
+gitlcear
+cd ..
+clear
+git status
+git restore nvim
+clear
+git status
+clear
+nvim .
+clear
+ls -a
+clear
+cd nvim
+ls
+cd lib
+ls
+cd ..
+cd share
+ls
+clear
+cd ..
+clear
+exit
+exit
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+clear
+amixer set Master mute
+clear
+nvim
+clear
+nvim .
+clear
+ls a
+clear
+sl -a
+clear
+sl -a
+clear
+ls -a
+clear
+cd .config/nvim/
+clear
+nvim .
+clear
+cd 
+ls -a
+clear
+ll
+clear
+ls -a
+clear
+ls -a
+cd .config
+ls
+ll
+clear
+ll
+clear
+ls
+cd nvim
+celar
+clear
+sl -a
+clear
+ls -a
+nvim init.lua 
+clear
+ls
+cd lua
+nvim options.lua 
+clear
+nvim .
+clear
+nvim .
+cd ..
+clear
+cd ..
+clear
+ls
+cd nvim
+clear
+ls
+nvim .
+clear
+ls -a
+clear
+ls
+celar
+ls -a
+clear
+ls -a
+nvim init.lua 
+clear
+ls -a
+clear
+cd ..
+clear
+ls-
+clear
+ls -a
+clear
+cd 
+cd dotfil
+cd .dotfiles/
+clear
+ls
+stow nvim
+stow -D nvim
+stow -D nvim-config/
+clear
+cd ..
+clear
+cd .cof
+cd .config/
+clear
+ls
+find nvim
+clear
+cd 
+clear
+cd .dotfiles/
+clear
+ls
+clear
+rm -rf nvim
+sudo rm -rf nvim
+clear
+sudo apt install neovim
+sudo apt autoremove
+clear
+nvim
+clear
+ls -a
+clear
+ls -a
+clear
+ls -a
+clear
+sudo apt install python3-neovim
+clear
+sudo apt upgrade
+clear
+sudo apt update
+sudo apt upgrade
+clear
+sudo apt update
+clear
+sudo add-apt-repository ppa:neovim-ppa/stable
+clear
+sudo apt install neovim
+sudo apt autoremove
+clear
+sudo apt list
+ear
+clear
+sudo apt-get install software-properties-common
+sudo apt-get install python-software-properties
+sudo apt-get install python-dev python-pip python3-dev python3-pip
+sudo apt-get install python-dev python-pip python3-dev
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+clear
+ls -a
+clear
+cd ..
+clear
+cd .config
+ls
+cd nvim
+clear
+ls -a
+clear
+cd /usr/share
+ls
+clear
+rm -rf nvim
+clear
+sudo rm -rf nvim
+clear
+cd ../lib
+ls
+rm -rf nvim
+clear
+sudo rm -rf nvim
+clear
+sl -a
+ls -a
+clear
+cd ..
+celar
+cd bin
+clear
+ls
+ll | grep nvim
+clear
+rm -rf nvim
+sudo rm -rf nvim
+clear
+ll | grep nvim
+clear
+cd 
+clear
+nvim
+clear
+nvim
+clear
+exit
