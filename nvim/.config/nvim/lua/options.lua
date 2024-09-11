@@ -1,9 +1,6 @@
 local global = vim.g
 local opt = vim.o
 
-global.mapleader = " "
-global.maplocalleader = " "
-
 opt.number = true
 opt.relativenumber = true
 opt.syntax = "on"

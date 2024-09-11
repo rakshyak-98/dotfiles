@@ -1,5 +1,12 @@
-local config = require("nvim-treesitter.configs")
-config.setup({
-	heilight = {enable = true}
-})
-return 
+return {
+	"nvim-teesitter/nvim-treesitter",
+	build = ":TSUpdate",
+	event = "BufReadPost",
+	config = function()
+		require("nvim-treesitter.configs").setup({
+			highlight = {
+				enable = true
+			}
+		})
+	end
+}
