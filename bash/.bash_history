@@ -980,3 +980,506 @@ clear
 nvim
 clear
 exit
+clear
+amixer set Capture 50%
+amixer set Capture 20%
+clear
+amixer set Capture 30%
+clear
+exit
+clear
+nvim
+clear
+sudo apt install neovim
+sudo apt purge neovim 
+clear
+sudo apt install neovim
+clear
+ls
+cd .config
+ls
+cd nvim
+clear
+cd
+clear
+nvim
+clear
+sudo update-alternatives --list
+sudo update-alternatives --config editor 
+clear
+echo $EDITOR
+clear
+ls -a
+clear
+ls -a
+clear
+which nvim
+celar
+clear
+cd /usr/bin/
+ls
+ll | grep nvim
+la | grep nvim
+clear
+file nvim
+cd /lib
+ls
+pwd
+cd nvim/
+clear
+ls
+cd parser/
+ls
+clear
+cd ..
+clear
+cd ..
+clear
+ls
+cd .
+clear
+cd ..
+clear
+cd /usr/bin
+file nvim
+clear
+file nvim
+clear
+nvim
+clear
+cd
+cd Downloads/
+clear
+ls
+tar -xvf nvim-linux64.tar.gz 
+clear
+ls
+mv nvim-linux64 nvim
+clear
+ls -a
+clear
+mv nvim nvim-core
+clear
+ls
+clear
+mv nvim-core/ ../.dotfiles/
+clear
+ls
+rm ecommerce-product-page-main.zip 
+clear
+cd ..
+cd Downloads/
+ls
+mv *.jp* ../background/
+rm -rf iTerm.app/
+clear
+ls
+mv *.png ../background
+clear
+cd ..
+cd .dotfiles/
+ls
+git status
+git add .
+git status
+clear
+git commit -m 'major changes to IDE setup'
+clear
+git push
+clear
+git status
+clear
+ls
+stow -vt /usr/ nvim-core/
+cd nvim-core/
+ls
+cd share
+ls
+rm -rf icons/
+cd ..
+ls
+ls -a
+ls
+rm -rf bin
+cd share
+ls
+rm -rf locale/
+clear
+cd ..
+clear
+cd ..
+stow -vt /usr nvim-core/
+rm -rf nvim-core/lib/nvim/parser/
+rm -rf nvim-core/share/applications/nvim.desktop 
+clear
+stow -vt /usr nvim-core/
+sudo stow -vt /usr nvim-core/
+clear
+nvim
+clear
+stow -D nvim-core/
+clear
+nvim
+clear
+ls -a
+clear
+ls -a
+clear
+cd nvim-config/
+ls
+clear
+sl -a
+ls -a
+clear
+cd .config/
+ls
+cd nvim/
+clear
+ls
+rm -rf *
+clear
+cd ..
+clearcd
+cd
+clear
+nvim
+clear
+cd /usr/share
+ls
+cd nvim
+clear
+ls
+cd runtime/
+ls
+cd syntax/
+ls
+find vim
+find go
+find css
+clear
+find javascript
+ls
+cat 8th.vim 
+clear
+cd ..
+clear
+ls -a
+cd autoload/
+ls
+cat javascriptcomplete.vim 
+nvim .
+clear
+ls -a
+clear
+ls -a
+clear
+cd ..
+clear
+cd 
+cd Downloads/
+clear
+sl -a
+clear
+ls -a
+clear
+sudo apt autoremove
+sudo apt purge neovim
+sudo apt install xsel
+sudo apt autoremove
+sudo apt list | grep xsel
+clear
+cd /usr
+ls
+cd bin
+find nvim
+cd ..
+cd lib
+find nvim
+cd ..
+clear
+tree
+celar
+ls
+clear
+ls -a
+cd local
+ls
+cd bin
+ls
+cd ..
+clear
+postman
+clear
+sudo apt purge postman
+clear
+ls -a
+cd etc
+ls
+clear
+ll
+la
+clear
+cd ..
+clear
+sl -a
+ls -a
+cd share
+ls
+cd ..
+clear
+cd ..
+cdlar
+cldar
+cd lib
+find nvim
+cd ..
+cd share
+find nvim
+clear
+cd nvim
+ls
+cd ..
+clear
+rm -rf nvim
+sudo rm -rf nvim
+clear
+ls -a
+clear
+ll
+clear
+sudo apt-cache rdepends zsh
+clear
+sudo update-alternatives --config editor 
+clear
+cd
+clear
+cd .config
+ls
+rm -rf fish omf
+clear
+cd ..
+clear
+rm -rf .vimrc .viminfo 
+clear
+sl -a
+clear
+ls -a
+clear
+vim
+clear
+ls -a
+clear
+nvim
+clear
+sudo add-apt-repository list
+sudo add-apt-repository --list
+sudo add-apt-repository --list | grep neovim
+clear
+sudo add-apt-repository --sourceslist 
+sudo add-apt-repository --list
+sudo add-apt-repository --remove https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu/
+clear
+sudo apt-cache clean
+sudo apt clean
+sudo apt-get clean
+sudo apt autoremove 
+clear
+sudo apt-get purge --auto-remove vim
+clear
+vi
+clear
+sudo update-alternatives --config editor 
+clear
+sudo add-apt-repository --remove https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu/
+clear
+sudo add-apt-repository add https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu/
+sudo add-apt-repository --remove https://ppa.launchpadcontent.net/neovim-ppa/stable/ubuntu/
+clear
+sudo add-apt-repository --list | grep 1pass
+sudo add-apt-repository --list | grep pass
+clear
+sudo add-apt-repository add ppa:neovim-paa/stable
+sudo add-apt-repository --add ppa:neovim-paa/stable
+sudo add-apt-repository ppa:neovim-ppa/stable
+clear
+sud apt-get install neovim
+sudo apt-get install neovim
+clear
+sudo update-alternatives --config editor 
+clear
+ranger
+clear
+cd .dotfiles/
+clear
+ls
+clear
+cd ..
+celar
+cd .config/
+clear
+find nvim
+clear
+cd ..
+clear
+cd .dotfiles/
+celar
+stow -v nvim-config/
+clear
+ls -a
+cd /usr
+cd share
+ls
+ll | grep nvim
+clear
+cd ..
+clear
+ls
+clear
+cd share
+ls
+find nvim
+cd nvim
+clear
+pwd
+clear
+cd
+clear
+cd .dotfiles/
+clear
+rm -rf nvim-core/
+clear
+cd
+cd Downloads/
+ls
+rm -rf nvim-linux64.tar.gz 
+celar
+cd
+cd .dofil
+cd .dotfiles/
+clear
+cd nvim-config/
+cd ..
+clear
+mv nvim-config/ nvim
+clear
+cd nvim/
+clear
+cd .config/
+clear
+ls
+cd nvim/
+clear
+cd
+clear
+cd .config/
+clear
+ls
+clear
+cd ..
+clear
+ls -a
+cd .config/
+rm -rf nvim
+clear
+cd
+cd .dotfiles/
+clear
+ls 
+stow -v nvim/
+clear
+cd 
+cd .config/
+cd nvim
+clear
+ls -a
+clear
+pwd
+clear
+ls -a
+clear
+touch init.lua
+clear
+nvim init.lua 
+clear
+mkdir lua
+cd lua
+clear
+ls
+touch init.lua
+nvim init.lua 
+clear
+nvim 
+cd ..
+celar
+cd 
+cd .dotfiles
+cd nvim/.config/nvim/
+ls
+cd lua
+ls
+clear
+mkdir config
+mv init.lua config/
+celar
+clear
+cd config/
+celar
+clear
+nvim init.lua 
+clear
+rm init.lua 
+clear
+ls
+touch cmp.lua
+cd ..
+clear
+ls
+clear
+mkdir plugins
+clear
+ls
+clear
+rm -f plugins/
+rm -rf plugins/
+clear
+touch plugins.lua
+clear
+ls -a
+clear
+touch plugins.lua 
+clear
+ls
+clear
+nvim plugins.lua 
+clear
+ls -a
+clear
+cd config/
+ls
+clear
+ls
+cd ..
+clear
+ls -a
+clear
+nvim plugins.lua 
+touch config/init.lua
+clear
+nvim plugins.lua 
+clear
+ls -a
+clear
+touch options.lua
+clear
+nvim options.lua 
+clear
+nvim options.lua 
+clear
+nvim .
+clear
+nvim .
+clear
+amixer set Maser unmute
+amixer set Master unmute
+clear
+exit
