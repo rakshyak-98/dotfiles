@@ -299,3 +299,295 @@ clear
 ls -a
 clear
 exit
+clear
+nvim .profile
+source .profile
+clear
+nvim .profile 
+clear
+source .profile
+clear
+ls -a
+celar
+clear
+ls -a
+celar
+clear
+cd .dotfiles
+clear
+ls -a
+clear
+ls -a
+clear
+ls -a
+git status
+git add .
+git commit -m 'made a lot of change carefull here :("
+'
+git push
+clear
+git status
+clear
+git status
+clear
+cd 
+nvim .profile 
+clear
+source .profile 
+clear
+cd .dotfiles/
+clear
+ls -a
+clear
+git status
+git add .
+git commit -m 'modify config bash'
+git push
+clear
+git status
+clear
+ranger
+clear
+gnome-session
+clear
+ls -a
+clear
+amixer set Master unmute
+celar
+clear
+amixer
+clear
+amixer
+clear
+cd .dotfiles
+clear
+ls -a
+clear
+cd nvim/.config/nvim
+nvim .
+clear
+nvim .
+clear
+cd
+cd .fonts
+cd .local/share
+cd fonts
+ls
+clear
+ls
+cd fonts/
+clear
+cd ttf/
+clear
+ls -a
+clear
+curl -fLo "FiraCode Nerd Font Complete.ttf" https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip
+unzip FiraCode.zip
+fc-cache -fv
+clear
+cd
+clear
+cd
+cd .dotfiles/nvim/.config/nvim
+ls
+nvim init.lua 
+clear
+exit
+clear
+exit
+clear
+exit
+clear
+which shutter
+clear
+which gnome-screenshot
+clear
+which flameshot
+clear
+sudo apt search shutter
+sudo apt install shutter
+clear
+ls -a
+clear
+shutter
+clear
+exit
+clear
+gh list
+clear
+gh list
+r
+exit
+gh list
+kkjkjkj:q
+clear
+exit
+ls -a
+clear
+cd .local/share
+ls
+clear
+cd applications/
+clear
+ls
+cp ranger.desktop ./nvim.desktop
+clear
+ls
+nvim nvim.desktop 
+clear
+ls 0a
+clear
+ls -a
+clear
+ls -a
+celar
+clear
+cd
+clear
+cd .dotfiles
+cd nvim/.config/nvim/
+nvim init.lua 
+clear
+sudo apt remove nvchad
+clear
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+clear
+ls -a
+cd ..
+clear
+ls -a
+clear
+cd ..
+clear
+l s-a
+cd ..
+clear
+cd
+clear
+rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim
+ls -a
+clear
+cd .config/
+find nvim
+clear
+find nvim
+clear
+cd .dotfiles
+clear
+cd
+cd .dotfiles/
+clear
+ls -a
+cd nvim
+cd .config/
+clear
+ls -a
+cd nvim/
+clear
+sl -a
+clear
+ls -a
+cd ..
+clear
+cd ..
+clear
+l s-a
+clear
+exit
+clear
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+ls
+clear
+cd .dotfiles
+ls
+cd nvim
+cd .config/
+clear
+ls
+rm -rf nvim
+clear
+cp ~/.config/nvim .
+cp -r ~/.config/nvim
+cp -r ~/.config/nvim .
+lclear
+git status
+clear
+nvim 
+clear
+nvim 
+clear
+nvim .
+clear
+nvim .
+clear
+ls
+cd nvim
+clear
+rm -rf *
+clear
+git clone --depth 1 git@github.com:anthdm/nvim.git
+git status
+clear
+ls -a
+clear
+rm -rf .git
+ls -a
+rm -rf .gitignore 
+clear
+cat .neoconf.json 
+clear
+ls
+clear
+ls -a
+clear
+cp nvim/* .
+mv nvim/* .
+rm -rf nvim
+ls -a
+clear
+nvim
+clear
+ls -a
+clear
+nvim .
+clear
+nvim .
+clear
+nvim .
+nvim 
+nvim
+clear
+nvim
+clear
+nvim .
+clear
+exit
+cd .dotfiles
+cd i3/.config/i3
+ls
+nvim bindsym.conf 
+clear
+ls -a
+clear
+exit
+shutdown -4
+clear
+git status
+clear
+git status
+clear
+git status
+clear
+echo $TERM
+clear
+exit
+clear
+cd .dotfiles
+cd i3/.config/i3
+ls
+nvim bindsym.conf
+exit
