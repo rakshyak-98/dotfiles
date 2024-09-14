@@ -3,6 +3,7 @@ return {
   { 'Bilal2453/luvit-meta', lazy = true },
   {
     'neovim/nvim-lspconfig',
+    autoformat = true,
     dependencies = {
       { 'williamboman/mason.nvim', config = true }, -- NOTE: Must be loaded before dependants
       {'williamboman/mason-lspconfig.nvim'},
@@ -21,19 +22,29 @@ return {
           map('gd', require('telescope.builtin').lsp_definitions, '[G]oto [D]efinition')
           map('gr', require('telescope.builtin').lsp_references, '[G]oto [R]eferences')
           map('gI', require('telescope.builtin').lsp_implementations, '[G]oto [I]mplementation')
-          map('<leader>D', require('telescope.builtin').lsp_type_definitions, 'Type [D]efinition')
-          map('<leader>ds', require('telescope.builtin').lsp_document_symbols, '[D]ocument [S]ymbols')
-          map('<leader>ws', require('telescope.builtin').lsp_dynamic_workspace_symbols, '[W]orkspace [S]ymbols')
-          map('<leader>rn', vim.lsp.buf.rename, '[R]e[n]ame')
-          map('<leader>ca', vim.lsp.buf.code_action, '[C]ode [A]ction', { 'n', 'x' })
+          map('gtd', require('telescope.builtin').lsp_type_definitions, 'Type [D]efinition')
+          map('gds', require('telescope.builtin').lsp_document_symbols, '[D]ocument [S]ymbols')
           map('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')
+          -- map('<leader>ws', require('telescope.builtin').lsp_dynamic_workspace_symbols, '[W]orkspace [S]ymbols')
+          map('<leader>rr', vim.lsp.buf.rename, '[R]e[n]ame')
+          map('<leader>ca', vim.lsp.buf.code_action, '[C]ode [A]ction', { 'n', 'x' })
         end
-        })
+      })
       local capabilities = vim.lsp.protocol.make_client_capabilities()
+      local opts = {
+        setup = {
+          clangd = function(_, opts)
+            opts.cmd = { "clangd", "--header-insertion=never" }
+          end,
+        },
+      }
       capabilities = vim.tbl_deep_extend('force', capabilities, require('cmp_nvim_lsp').default_capabilities())
       local servers = {
-        ts_ls = {},
+        ts_ls = {
+          opts =  opts
+        },
         lua_ls = {
+          opts = opts,
           settings = {
             Lua = {
               diagnostics = {

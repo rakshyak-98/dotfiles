@@ -6,20 +6,21 @@ return {
       'hrsh7th/cmp-nvim-lsp',
       'hrsh7th/cmp-path',
     },
-    config = function() local cmp = require 'cmp'
-      cmp.setup {
+    opts = function()
+      local cmp = require 'cmp'
+      return {
+        auto_brackets = {'typescript', 'lua', 'javascript'},
         experimental = {
           ghost_text = true
         },
-        completion = { completeopt = 'noinsert', completeslash = 'shellslash'},
+        completion = { completeopt = 'noinsert' },
         mapping = cmp.mapping.preset.insert {
           ['<C-n>'] = cmp.mapping.select_next_item(),
           ['<C-p>'] = cmp.mapping.select_prev_item(),
           ['<C-b>'] = cmp.mapping.scroll_docs(-4),
           ['<C-f>'] = cmp.mapping.scroll_docs(4),
-          ['<C-y>'] = cmp.mapping.confirm { select = true },
+          ['<TAB>'] = cmp.mapping.confirm { select = true },
           ['<C-Space>'] = cmp.mapping.complete {},
-
         },
         sources = {
           {

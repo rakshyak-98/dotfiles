@@ -1,8 +1,21 @@
+-- @param mod n|i|v|x
+-- @param cmd string
+-- @param vim_cmd string
+local function map(mod, cmd, vim_cmd)
+  local opt = {noremap = true, silent = true}
+  vim.keymap.set(mod, cmd, vim_cmd .. '<CR>', opt)
+end
+
 -- [[ Basic Keymaps ]]
-vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+-- vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>') -- use vim.otp.nohlsearch = true
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
-vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
+-- vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 vim.keymap.set('n',  '<leader>pf', ':Explore<CR>')
+vim.keymap.set('v', '<leader>s', ':sort ')
+-- vim.keymap.set('n', 'ff', format, {desc = 'Format the current buffer'})
+map('n', ']', ':bprevious')
+map('n', '[', ':bnext')
+map('n', '<leader>x', ':bd')
 
 -- TIP: Disable arrow keys in normal mode
 vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
@@ -32,9 +45,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank()
   end,
 })
+--]]
 
 -- [[ System command ]]
-vim.api.nvim_set_keymap('n', '<M-h>', ':execute "term" shellescape(os.getenv("SHELL"))<CR>', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap('n', '<M-h>', '', { noremap = true, silent = true })
 
 -- ]]
 
