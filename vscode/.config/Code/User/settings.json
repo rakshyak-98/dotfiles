@@ -541,7 +541,7 @@
     "prettier.endOfLine": "lf",
     "window.commandCenter": false,
     "workbench.editor.editorActionsLocation": "hidden",
-    "prettier.tabWidth": 4,
+    "prettier.tabWidth": 2,
     "prettier.useTabs": true,
     "explorer.confirmDelete": false,
     "editor.cursorBlinking": "solid",
