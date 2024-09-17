@@ -485,10 +485,6 @@
     "command": "workbench.action.showCommands"
   },
   {
-    "key": "ctrl+n",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
     "key": "ctrl+b",
     "command": "-workbench.action.toggleSidebarVisibility"
   },
@@ -502,7 +498,7 @@
     "command": "-workbench.action.focusSideBar"
   },
   {
-    "key": "ctrl+0",
+    "key": "\\",
     "command": "workbench.files.action.focusFilesExplorer"
   },
   {
@@ -658,4 +654,46 @@
     "key": "ctrl+pagedown",
     "command": "-workbench.action.nextEditor"
   },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "-workbench.action.replaceInFiles"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "sideBarFocus && statusBarFocused"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+0",
+    "command": "-editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "\\",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeActiveEditor"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": [
+        "y",
+        "y"
+      ]
+    }
+  }
 ]

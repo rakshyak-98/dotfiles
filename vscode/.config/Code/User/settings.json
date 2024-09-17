@@ -44,7 +44,10 @@
     "vim.hlsearch": false,
     "vim.useSystemClipboard": true,
     "vim.foldfix": true,
-    "vim.shell": "/usr/bin/zsh",
+    "vim.autoindent": true,
+    "vim.inccommand": "replace",
+    "vim.shell": "/bin/bash",
+    // "vim.whichwrap": "h,l,<,>",
     "vim.statusBarColors.commandlineinprogress": "#007ACC",
     "vim.statusBarColors.searchinprogressmode": "#007ACC",
     "vim.statusBarColors.easymotionmode": "#007ACC",
@@ -508,6 +511,17 @@
             "when": [
                 "isInDiffEditor && !operationInProgress"
             ]
+        },
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
         }
     ],
     "vim.handleKeys": {
@@ -531,7 +545,7 @@
         "announcement": "off"
     },
     "files.trimTrailingWhitespace": true,
-    "workbench.tree.indent": 12,
+    "workbench.tree.indent": 10,
     "markdown.math.enabled": false,
     "cSpell.ignoreRegExpList": [
         "settings.json"
@@ -555,6 +569,7 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "cSpell.userWords": [
         "afplay",
+        "autoindent",
         "bencode",
         "Catppuccin",
         "clsx",
@@ -654,12 +669,21 @@
     "editor.inlayHints.enabled": "off",
     "workbench.editor.empty.hint": "hidden",
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
-    "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
     "go.toolsManagement.autoUpdate": true,
     "terminal.integrated.cursorStyleInactive": "block",
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.suggest.showValues": false,
     "editor.fontFamily": "'Noto Mono','Droid Sans Mono', 'monospace', monospace",
-    "workbench.colorTheme": "habamix"
+    "workbench.colorTheme": "habamix",
+    "workbench.sideBar.location": "right",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.tabSize": 2,
+    "editor.bracketPairColorization.enabled": false,
+    "workbench.preferredDarkColorTheme": "habamix",
+    "accessibility.verbosity.terminal": false,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.confirmOnExit": "hasChildProcesses",
+    "terminal.integrated.gpuAcceleration": "on"
 }
