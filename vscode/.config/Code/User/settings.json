@@ -93,8 +93,8 @@
         },
         {
             "before": [
-                "g",
-                "q"
+                "q",
+                "f"
             ],
             "commands": [
                 "editor.action.quickFix"
@@ -199,7 +199,82 @@
                 "leader",
                 "w"
             ]
-        }
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "<C-w>",
+                "<C-h>"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<C-w>",
+                "<C-l>"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<C-w>",
+                "<C-j>"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "<C-w>",
+                "<C-k>"
+            ]
+        },
+        {
+            "commands": [
+                "workbench.action.quickOpen"
+            ],
+            "when": [
+                "!workbench.action.terminal.focus"
+            ],
+            "before": [
+                "<leader>",
+                "<leader>"
+            ]
+        },
+        {
+            "commands": [
+                "workbench.action.splitEditorUp"
+            ],
+            "before": [
+                "<C-w>",
+                "k"
+            ]
+        },
+        {
+            "commands": [
+                "workbench.action.splitEditorLeft"
+            ],
+            "before": [
+                "<C-w>",
+                "l"
+            ]
+        },
+        {
+            "commands": [
+                "workbench.action.splitEditorRight"
+            ],
+            "before": [
+                "<C-w>",
+                "h"
+            ]
+        },
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
@@ -210,6 +285,24 @@
                 "c",
                 "p"
             ]
+        },
+        {
+            "commands": [
+                "workbench.action.nextEditor"
+            ],
+            "before": [
+                "["
+            ],
+            "silent": true
+        },
+        {
+            "commands": [
+                "workbench.action.previousEditor"
+            ],
+            "before": [
+                "]"
+            ],
+            "silent": true
         },
         {
             "commands": [
@@ -229,47 +322,6 @@
                 "p",
                 "v"
             ]
-        },
-        {
-            "commands": [
-                "workbench.action.quickOpen"
-            ],
-            "when": [
-                "!workbench.action.terminal.focus"
-            ],
-            "before": [
-                "<leader>",
-                "f",
-                "f"
-            ]
-        },
-        {
-            "commands": [
-                "workbench.action.splitEditorDown"
-            ],
-            "before": [
-                "<C-w>",
-                "<C-v>"
-            ]
-        },
-        {
-            "commands": [
-                "workbench.action.splitEditorLeft"
-            ],
-            "before": [
-                "<C-w>",
-                "<C-h>"
-            ]
-        },
-        {
-            "commands": [
-                "workbench.action.files.save"
-            ],
-            "before": [
-                "<leader>",
-                "<leader>"
-            ],
-            "silent": true
         },
         {
             "before": [
@@ -517,6 +569,7 @@
         "leaderboard",
         "Lusitana",
         "mozwebkit",
+        "Noto",
         "Parens",
         "Picsum",
         "reduxjs",
@@ -579,16 +632,16 @@
     "terminal.integrated.enablePersistentSessions": false,
     "files.trimFinalNewlines": true,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
-    "cody.autocomplete.enabled": false,
+    "cody.autocomplete.enabled": true,
     "window.zoomPerWindow": false,
     "terminal.integrated.cursorStyle": "block",
     "editor.minimap.enabled": false,
     "editor.rulers": [
-        80,
+        100,
     ],
     "editor.formatOnSaveMode": "modifications",
     "go.showWelcome": false,
@@ -606,6 +659,7 @@
     "go.toolsManagement.autoUpdate": true,
     "terminal.integrated.cursorStyleInactive": "block",
     "terminal.integrated.drawBoldTextInBrightColors": false,
-    "terminal.integrated.fontWeightBold": "100",
     "editor.suggest.showValues": false,
+    "editor.fontFamily": "'Noto Mono','Droid Sans Mono', 'monospace', monospace",
+    "workbench.colorTheme": "habamix"
 }
