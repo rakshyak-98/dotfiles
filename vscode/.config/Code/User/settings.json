@@ -48,11 +48,6 @@
     "vim.inccommand": "replace",
     "vim.shell": "/bin/bash",
     // "vim.whichwrap": "h,l,<,>",
-    "vim.statusBarColors.commandlineinprogress": "#007ACC",
-    "vim.statusBarColors.searchinprogressmode": "#007ACC",
-    "vim.statusBarColors.easymotionmode": "#007ACC",
-    "vim.statusBarColors.easymotioninputmode": "#007ACC",
-    "vim.statusBarColors.surroundinputmode": "#007ACC",
     "vim.normalModeKeyBindings": [
         {
             "before": [
@@ -575,6 +570,7 @@
         "clsx",
         "deque",
         "foldfix",
+        "godotenv",
         "grayscale",
         "gsap",
         "hlsearch",
@@ -636,7 +632,12 @@
         },
         "editor.wordHighlightStrongBorder": "#FF6347",
         "editor.wordHighlightBorder": "#FFD700",
-        "editor.selectionHighlightBorder": "#A9A9A9"
+        "editor.selectionHighlightBorder": "#A9A9A9",
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
     },
     "workbench.editor.revealIfOpen": true,
     "emmet.variables": {

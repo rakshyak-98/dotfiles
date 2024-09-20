@@ -678,10 +678,6 @@
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "\\",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
     "key": "ctrl+w",
     "command": "-workbench.action.closeActiveEditor"
   },
@@ -695,5 +691,30 @@
         "y"
       ]
     }
+  },
+  {
+    "key": "/",
+    "commands": "workbench.action.toggleSidebarVisibility",
+    "when": "fileExplorerFocus && !inputFocus && vim.mode != 'Insert'"
+  },
+  {
+    "key": "up",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "down",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "k",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "j",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   }
 ]
