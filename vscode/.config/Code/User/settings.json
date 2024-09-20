@@ -591,8 +591,8 @@
         "Upgrader",
         "viewsets"
     ],
-    "window.customTitleBarVisibility": "auto",
-    "workbench.layoutControl.enabled": false,
+    // "window.customTitleBarVisibility": "auto",
+    // "workbench.layoutControl.enabled": false,
     "window.menuBarVisibility": "toggle",
     "editor.quickSuggestionsDelay": 100,
     "editor.screenReaderAnnounceInlineSuggestion": false,
@@ -686,5 +686,4 @@
     "accessibility.verbosity.terminal": false,
     "terminal.explorerKind": "external",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
-    "terminal.integrated.gpuAcceleration": "on"
 }

@@ -486,7 +486,7 @@
   },
   {
     "key": "ctrl+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility"
   },
   {
     "key": "ctrl+shift+c",
@@ -664,15 +664,6 @@
     "command": "-workbench.action.replaceInFiles"
   },
   {
-    "key": "ctrl+1",
-    "command": "workbench.action.focusFirstEditorGroup",
-    "when": "sideBarFocus && statusBarFocused"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "-workbench.action.focusFirstEditorGroup"
-  },
-  {
     "key": "ctrl+k ctrl+0",
     "command": "-editor.foldAll",
     "when": "editorTextFocus && foldingEnabled"
@@ -693,11 +684,6 @@
     }
   },
   {
-    "key": "/",
-    "commands": "workbench.action.toggleSidebarVisibility",
-    "when": "fileExplorerFocus && !inputFocus && vim.mode != 'Insert'"
-  },
-  {
     "key": "up",
     "command": "cursorUp",
     "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
@@ -716,5 +702,9 @@
     "key": "j",
     "command": "cursorDown",
     "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.toggleSidebarVisibility"
   }
 ]
