@@ -10,7 +10,7 @@ end
 -- vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>') -- use vim.otp.nohlsearch = true
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 -- vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
-vim.keymap.set('n',  '<leader>pf', ':Explore<CR>')
+vim.keymap.set('n',  '<leader>ff', ':Explore<CR>')
 vim.keymap.set('v', '<leader>s', ':sort ')
 -- vim.keymap.set('n', 'ff', format, {desc = 'Format the current buffer'})
 map('n', ']', ':bprevious')

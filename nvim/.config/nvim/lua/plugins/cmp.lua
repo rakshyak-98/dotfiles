@@ -10,10 +10,10 @@ return {
       local cmp = require 'cmp'
       return {
         auto_brackets = {'typescript', 'lua', 'javascript'},
+        completion = { completeopt = 'noinsert' , autocomplete = false},
         experimental = {
           ghost_text = true
         },
-        completion = { completeopt = 'noinsert' },
         mapping = cmp.mapping.preset.insert {
           ['<C-n>'] = cmp.mapping.select_next_item(),
           ['<C-p>'] = cmp.mapping.select_prev_item(),
@@ -31,6 +31,9 @@ return {
           { name = 'buffer' },
           { name = 'path' },
         },
+        window = {
+          documentation = cmp.config.window.bordered(),
+        }
       }
     end,
   },
