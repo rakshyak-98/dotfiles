@@ -10,7 +10,7 @@ return {
       local cmp = require 'cmp'
       return {
         auto_brackets = {'typescript', 'lua', 'javascript'},
-        completion = { completeopt = 'noinsert' , autocomplete = false},
+        completion = { completeopt = 'noinsert' },
         experimental = {
           ghost_text = true
         },

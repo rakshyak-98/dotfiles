@@ -11,6 +11,7 @@ vim.opt.showmode = false
 vim.opt.breakindent = true
 vim.opt.undofile = true
 vim.opt.tabstop = 2
+vim.opt.laststatus = 3
 vim.opt.shiftwidth = 2
 
 vim.schedule(function()
@@ -35,3 +36,7 @@ vim.opt.inccommand = 'split'
 -- Show which line your cursor is on
 vim.opt.cursorline = true
 --]] vim: ts=2 sts=2 sw=2 et
+
+-- [[ set optoin ]]
+vim.api.nvim_set_hl(0, 'WinSeparator', { bg = "None" })
+-- ]]
