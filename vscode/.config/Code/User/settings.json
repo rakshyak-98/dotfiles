@@ -568,6 +568,7 @@
         "bencode",
         "Catppuccin",
         "clsx",
+        "Commandline",
         "deque",
         "foldfix",
         "godotenv",

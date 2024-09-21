@@ -481,14 +481,6 @@
     "when": "editorFocus || editorIsOpen !terminal.active"
   },
   {
-    "key": "ctrl+p",
-    "command": "workbench.action.showCommands"
-  },
-  {
-    "key": "ctrl+b",
-    "command": "workbench.action.toggleSidebarVisibility"
-  },
-  {
     "key": "ctrl+shift+c",
     "command": "-workbench.action.terminal.openNativeConsole",
     "when": "!terminalFocus"
@@ -496,10 +488,6 @@
   {
     "key": "ctrl+0",
     "command": "-workbench.action.focusSideBar"
-  },
-  {
-    "key": "\\",
-    "command": "workbench.files.action.focusFilesExplorer"
   },
   {
     "key": "shift+alt+f8",
@@ -706,5 +694,29 @@
   {
     "key": "ctrl+n",
     "command": "-workbench.action.toggleSidebarVisibility"
-  }
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.showCommands",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.showCommands",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility",
+  },
+  {
+    "key": "\\",
+    "command": "workbench.view.explorer",
+    "when": "vim.mode == 'Normal' && vim.mode != 'Commandline'"
+  },
+  {
+    "key": "\\",
+    "command": "workbench.action.closeSidebar",
+    "when": "explorerViewletVisible"
+  },
 ]
