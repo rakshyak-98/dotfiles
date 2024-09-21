@@ -286,7 +286,7 @@
         },
         {
             "commands": [
-                "workbench.action.nextEditor"
+                "workbench.action.nextEditorInGroup"
             ],
             "before": [
                 "["
@@ -295,7 +295,7 @@
         },
         {
             "commands": [
-                "workbench.action.previousEditor"
+                "workbench.action.previousEditorInGroup"
             ],
             "before": [
                 "]"
@@ -433,6 +433,16 @@
                 "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "g"
+            ],
+            "commands": [
+                "comfy-live-grep.grep-files"
+            ]
+        }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
