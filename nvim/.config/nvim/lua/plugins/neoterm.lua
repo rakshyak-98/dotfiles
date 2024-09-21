@@ -1,4 +1,0 @@
-return {
-	'kassio/neoterm',
-	opt = {}
-}
