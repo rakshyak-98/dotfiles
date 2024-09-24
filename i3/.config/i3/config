@@ -18,9 +18,11 @@
 include $HOME/.config/i3/styling.conf
 include $HOME/.config/i3/workspace.conf
 include $HOME/.config/i3/bindsym.conf
+include $HOME/.config/i3/makeup.conf
 
 # variables
 set $mod Mod4
+set $script ~/config/i3/Scripts
 
 # first monitor
 set $pm eDP-1
