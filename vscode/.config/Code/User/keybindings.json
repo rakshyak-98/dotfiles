@@ -703,4 +703,22 @@
     "key": "ctrl+k ctrl+pagedown",
     "command": "-workbench.action.nextEditorInGroup"
   },
+  {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k p",
+    "command": "-workbench.action.files.copyPathOfActiveFile"
+  },
+  {
+    "key": "ctrl+k ctrl+p",
+    "command": "-workbench.action.showAllEditors"
+  }
 ]
