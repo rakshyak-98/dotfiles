@@ -687,7 +687,7 @@
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.suggest.showValues": false,
     "editor.fontFamily": "'Noto Mono','Droid Sans Mono', 'monospace', monospace",
-    "workbench.colorTheme": "habamix",
+    "workbench.colorTheme": "Solarized Dark",
     "workbench.sideBar.location": "right",
     "editor.guides.highlightActiveBracketPair": false,
     "editor.renderLineHighlight": "gutter",
