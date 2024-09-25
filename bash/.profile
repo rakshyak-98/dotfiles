@@ -28,3 +28,4 @@ fi
 . "$HOME/.cargo/env"
 
 # PS1='\[\e[0;34m\]➜ \W \[\e[0;35m\]$(__git_ps1 "(%s)")\[\e[0m\]\$ '
+. "/home/rakshyak/.deno/env"
