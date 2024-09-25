@@ -4,4 +4,5 @@ require "nvchad.options"
 
 local o = vim.o
 o.cursorlineopt ='line,number' -- to enable cursorline!
+o.relativenumber = true
 

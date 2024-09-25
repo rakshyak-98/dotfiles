@@ -697,4 +697,5 @@
     "accessibility.verbosity.terminal": false,
     "terminal.explorerKind": "external",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
+    "liveServer.settings.donotShowInfoMsg": true,
 }
