@@ -8,10 +8,18 @@
     "editor.lineNumbers": "relative",
     "editor.stickyScroll.enabled": false,
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.glyphMargin": false,
     "editor.quickSuggestions": {
         "other": "inline"
     },
-    // formatter
+    //
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/*dist": true
+    },
+    // Language specific
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -636,19 +644,7 @@
     "editor.linkedEditing": true,
     "editor.unicodeHighlight.includeComments": true,
     "workbench.colorCustomizations": {
-        "[Default Dark Modern]": {
-            "tab.activeBorderTop": "#00FF00",
-            "tab.unfocusedActiveBorderTop": "#00FF0088",
-            "textCodeBlock.background": "#00000055"
-        },
-        "editor.wordHighlightStrongBorder": "#FF6347",
-        "editor.wordHighlightBorder": "#FFD700",
-        "editor.selectionHighlightBorder": "#A9A9A9",
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f",
-        "statusBar.foreground": "#ffffff",
-        "statusBar.debuggingForeground": "#ffffff"
     },
     "workbench.editor.revealIfOpen": true,
     "emmet.variables": {
@@ -659,7 +655,7 @@
     "terminal.integrated.enablePersistentSessions": false,
     "files.trimFinalNewlines": true,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
@@ -672,12 +668,11 @@
     ],
     "editor.formatOnSaveMode": "modifications",
     "go.showWelcome": false,
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "on",
     "workbench.startupEditor": "none",
     "[dockercompose]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
     },
-    "workbench.activityBar.location": "hidden",
     "editor.inlayHints.enabled": "off",
     "workbench.editor.empty.hint": "hidden",
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
