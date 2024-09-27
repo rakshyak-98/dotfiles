@@ -655,7 +655,7 @@
     "terminal.integrated.enablePersistentSessions": false,
     "files.trimFinalNewlines": true,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
@@ -668,7 +668,7 @@
     ],
     "editor.formatOnSaveMode": "modifications",
     "go.showWelcome": false,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "bounded",
     "workbench.startupEditor": "none",
     "[dockercompose]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
@@ -681,8 +681,7 @@
     "terminal.integrated.cursorStyleInactive": "block",
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.suggest.showValues": false,
-    "editor.fontFamily": "'Noto Mono','Droid Sans Mono', 'monospace', monospace",
-    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontFamily": "'JetBrainsMonoNL NF ExtraLight','Droid Sans Mono', 'monospace', monospace",
     "workbench.sideBar.location": "right",
     "editor.guides.highlightActiveBracketPair": false,
     "editor.renderLineHighlight": "gutter",
