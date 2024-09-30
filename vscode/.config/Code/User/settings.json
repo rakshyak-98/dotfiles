@@ -461,6 +461,19 @@
     }
   ]
 },
+{
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "g", "j"], // Jump to next Git change
+      "commands": ["workbench.action.editor.nextChange"]
+    },
+    {
+      "before": ["<leader>", "g", "k"], // Jump to previous Git change
+      "commands": ["workbench.action.editor.previousChange"]
+    }
+  ]
+},
+
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
