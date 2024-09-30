@@ -442,7 +442,15 @@
             "commands": [
                 "comfy-live-grep.grep-files"
             ]
-        }
+        },
+{
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "g", "p"], // Peek Git diff for the changed line
+      "commands": ["editor.action.dirtydiff.next"]
+    }
+  ]
+},
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
