@@ -273,6 +273,16 @@
                 "h"
             ]
         },
+{
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "g", "r"], // Revert hunk
+      "commands": ["git.revertSelectedRanges"]
+    }
+  ]
+},
+
+
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
