@@ -621,7 +621,6 @@
     "editor.suggest.showWords": false,
     "editor.suggest.showUsers": false,
     "editor.suggest.showSnippets": false,
-    "files.autoSaveWorkspaceFilesOnly": true,
     "files.eol": "\n",
     "cody.commandCodeLenses": false,
     "cody.commandHints.enabled": false,
@@ -666,9 +665,7 @@
     "editor.rulers": [
         100,
     ],
-    "editor.formatOnSaveMode": "modifications",
     "go.showWelcome": false,
-    "editor.wordWrap": "bounded",
     "workbench.startupEditor": "none",
     "[dockercompose]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker"
@@ -678,7 +675,7 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "explorer.compactFolders": false,
     "go.toolsManagement.autoUpdate": true,
-    "terminal.integrated.cursorStyleInactive": "block",
+    "terminal.integrated.cursorStyleInactive": "line",
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.suggest.showValues": false,
     "editor.fontFamily": "'JetBrainsMonoNL NF ExtraLight','Droid Sans Mono', 'monospace', monospace",
@@ -692,4 +689,5 @@
     "terminal.explorerKind": "external",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Solarized Dark",
 }
