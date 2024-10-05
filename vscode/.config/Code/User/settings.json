@@ -689,5 +689,5 @@
     "terminal.explorerKind": "external",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Default Light+",
 }
