@@ -690,4 +690,7 @@
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.colorTheme": "Default Light+",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
 }
