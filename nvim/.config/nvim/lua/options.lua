@@ -1,10 +1,12 @@
+local tabspace = 4
+
 vim.opt.clipboard = 'unnamedplus'
-vim.opt.completeopt = { 'menu', 'menuone', 'noselect' }
+vim.opt.cmdheight = 0 -- merge the bottom command line with the status line
 
 vim.opt.tabstop = tabspace
 vim.opt.softtabstop = tabspace
 vim.opt.shiftwidth = tabspace
-vim.opt.expandtab = false 
+vim.opt.expandtab = false
 
 -- UI config
 vim.opt.number = true
@@ -18,4 +20,3 @@ vim.opt.incsearch = true
 vim.opt.hlsearch = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-
