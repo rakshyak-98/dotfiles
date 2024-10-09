@@ -692,4 +692,5 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
+    "workbench.colorTheme": "NeoRose-VimPine",
 }
