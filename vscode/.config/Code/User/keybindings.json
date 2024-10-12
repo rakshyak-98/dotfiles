@@ -334,10 +334,6 @@
     "when": "inFilesPicker && inQuickOpen"
   },
   {
-    "key": "ctrl+shift+-",
-    "command": "workbench.action.terminal.split"
-  },
-  {
     "key": "ctrl+p",
     "command": "-workbench.action.quickOpen"
   },

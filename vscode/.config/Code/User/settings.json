@@ -571,8 +571,6 @@
     "prettier.tabWidth": 2,
     "prettier.useTabs": true,
     "explorer.confirmDelete": false,
-    "editor.cursorBlinking": "solid",
-    "editor.cursorSurroundingLines": 2,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "breadcrumbs.icons": false,
     "editor.fontWeight": "100",
@@ -660,10 +658,9 @@
     "cody.chat.defaultLocation": "editor",
     "cody.autocomplete.enabled": true,
     "window.zoomPerWindow": false,
-    "terminal.integrated.cursorStyle": "block",
     "editor.minimap.enabled": false,
     "editor.rulers": [
-        100,
+        80,
     ],
     "go.showWelcome": false,
     "workbench.startupEditor": "none",
@@ -675,7 +672,6 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "explorer.compactFolders": false,
     "go.toolsManagement.autoUpdate": true,
-    "terminal.integrated.cursorStyleInactive": "line",
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.suggest.showValues": false,
     "editor.fontFamily": "'JetBrainsMonoNL NF ExtraLight','Droid Sans Mono', 'monospace', monospace",
@@ -684,7 +680,6 @@
     "editor.renderLineHighlight": "gutter",
     "editor.tabSize": 2,
     "editor.bracketPairColorization.enabled": false,
-    "workbench.preferredDarkColorTheme": "habamix",
     "accessibility.verbosity.terminal": false,
     "terminal.explorerKind": "external",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
@@ -693,4 +688,7 @@
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "workbench.colorTheme": "NeoRose-VimPine",
+    "workbench.activityBar.location": "hidden",
+    "editor.multiCursorLimit": 10,
+    "workbench.panel.defaultLocation": "top"
 }
