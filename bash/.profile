@@ -28,3 +28,6 @@ fi
 . "$HOME/.cargo/env"
 
 # PS1='\[\e[0;34m\]➜ \W \[\e[0;35m\]$(__git_ps1 "(%s)")\[\e[0m\]\$ '
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
+export GOPATH=/home/ubuntu/go
+export GOROOT=/usr/local/go
