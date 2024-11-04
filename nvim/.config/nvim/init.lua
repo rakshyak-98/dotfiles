@@ -5,5 +5,6 @@ vim.g.netrw_altfile = 1
 
 require "options"
 require "keymaps"
+require "commands"
 require "lazy-bootstrap"
 require "lazy-plugins"

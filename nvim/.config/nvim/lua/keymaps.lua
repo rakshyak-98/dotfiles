@@ -8,15 +8,14 @@ local function map(mod, cmd, vim_cmd, desc)
 end
 
 -- [[ Basic Keymaps ]]
--- vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>') -- use vim.otp.nohlsearch = true
 map('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
--- vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
-map('n', '<leader>pf', '<Cmd>Explore<CR>')
-map('v', '<leader>s', ':sort ')
--- vim.keymap.set('n', 'ff', format, {desc = 'Format the current buffer'})
-map('n', ']', ':bprevious')
-map('n', '[', ':bnext')
-map('n', '<leader>x', ':bd')
+map('n', '<leader>pv', '<Cmd>Explore<CR>')
+map('v', '<leader>s', ':sort ') -- yes I wnat it that way
+-- vim.keymap.set('n', 'ff', format, {desc = 'Format the current buffer'}) -- fix this to enable formating
+map('n', ']', '<Cmd>bprevious<CR>')
+map('n', '[', '<Cmd>bnext<CR>')
+map('n', '<leader>x', '<Cmd>bd<CR>')
+map('n', '<C-t>', '<Cmd>OpenTerminal<CR>', { desc = 'Open terminal' }) -- this won't work with you
 
 -- TIP: Disable arrow keys in normal mode
 map('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
@@ -32,21 +31,6 @@ map('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
 map('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
 map('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 map('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
-
--- [[ Basic Autocommands ]]
---  See `:help lua-guide-autocommands`
-
--- Highlight when yanking (copying) text
---  Try it with `yap` in normal mode
---  See `:help vim.highlight.on_yank()`
-vim.api.nvim_create_autocmd('TextYankPost', {
-  desc = 'Highlight when yanking (copying) text',
-  group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
-  callback = function()
-    vim.highlight.on_yank()
-  end,
-})
---]]
 
 -- [[ System command ]]
 -- vim.api.nvim_set_keymap('n', '<M-h>', '', { noremap = true, silent = true })
