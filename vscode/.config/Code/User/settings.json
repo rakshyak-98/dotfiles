@@ -4,8 +4,6 @@
     "editor.selectionHighlight": false,
     "editor.occurrencesHighlight": "off",
     "editor.stickyScroll.scrollWithEditor": false,
-    "editor.lineNumbers": "relative",
-    "editor.stickyScroll.enabled": false,
     "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
     "editor.quickSuggestions": {
         "other": "inline"
@@ -18,30 +16,6 @@
         "**/*dist": true
     },
     // Language specific
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     // vim configurations
     "vim.leader": "<space>",
     "vim.incsearch": true,
@@ -578,13 +552,11 @@
     "prettier.tabWidth": 2,
     "prettier.useTabs": true,
     "explorer.confirmDelete": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
     "breadcrumbs.icons": false,
     "editor.fontWeight": "100",
     "terminal.integrated.fontWeight": "100",
     "terminal.integrated.fontSize": 13,
     "extensions.ignoreRecommendations": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
     "cSpell.userWords": [
         "afplay",
         "autoindent",
@@ -634,17 +606,11 @@
     "javascript.suggestionActions.enabled": false,
     "typescript.suggestionActions.enabled": false,
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "javascript.suggest.autoImports": false,
     "workbench.editor.dragToOpenWindow": false,
-    "workbench.editor.enablePreview": false,
-    "editor.autoClosingComments": "never",
     "debug.console.fontSize": 11.5,
     "css.format.spaceAroundSelectorSeparator": true,
     "css.lint.universalSelector": "warning",
     "css.lint.unknownAtRules": "ignore",
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-    },
     "editor.linkedEditing": true,
     "editor.unicodeHighlight.includeComments": true,
     "workbench.editor.revealIfOpen": true,
@@ -656,44 +622,36 @@
     "terminal.integrated.enablePersistentSessions": false,
     "files.trimFinalNewlines": true,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.fontSize": 10,
+    "editor.fontSize": 13,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
     "cody.autocomplete.enabled": true,
     "window.zoomPerWindow": false,
     "editor.minimap.enabled": false,
-    "editor.rulers": [
-        80,
-    ],
     "go.showWelcome": false,
     "workbench.startupEditor": "none",
-    "[dockercompose]": {
-        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-    },
     "editor.inlayHints.enabled": "off",
     "workbench.editor.empty.hint": "hidden",
-    "editor.codeActionWidget.includeNearbyQuickFixes": false,
     "explorer.compactFolders": false,
     "go.toolsManagement.autoUpdate": true,
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.suggest.showValues": false,
     "workbench.sideBar.location": "right",
     "editor.guides.highlightActiveBracketPair": false,
-    "editor.renderLineHighlight": "gutter",
-    "editor.tabSize": 2,
     "editor.bracketPairColorization.enabled": false,
     "accessibility.verbosity.terminal": false,
     "terminal.explorerKind": "external",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "liveServer.settings.donotShowInfoMsg": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
     "editor.multiCursorLimit": 10,
     "workbench.panel.defaultLocation": "top",
     "workbench.layoutControl.enabled": false,
     "workbench.activityBar.location": "hidden",
     "window.customTitleBarVisibility": "auto",
-    "chat.editor.fontSize": 12
+    "chat.editor.fontSize": 12,
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'JetBranis Mono','Droid Sans Mono', 'monospace', monospace",
+    "editor.stickyScroll.enabled": false,
 }
