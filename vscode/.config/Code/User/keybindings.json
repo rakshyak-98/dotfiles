@@ -111,10 +111,6 @@
     "when": "listFocus && listSupportsFind"
   },
   {
-    "key": "f1",
-    "command": "-workbench.action.showCommands"
-  },
-  {
     "key": "f10",
     "command": "-workbench.action.debug.stepOver",
     "when": "debugState == 'stopped'"
@@ -334,10 +330,6 @@
     "when": "inFilesPicker && inQuickOpen"
   },
   {
-    "key": "ctrl+p",
-    "command": "-workbench.action.quickOpen"
-  },
-  {
     "key": "ctrl+]",
     "command": "-editor.action.indentLines",
     "when": "editorTextFocus && !editorReadonly"
@@ -373,10 +365,6 @@
   },
   {
     "key": "ctrl+shift+p",
-    "command": "-workbench.action.showCommands"
-  },
-  {
-    "key": "ctrl+shift+p",
     "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
   },
@@ -399,10 +387,6 @@
   {
     "key": "ctrl+r",
     "command": "-workbench.action.openRecent"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "-workbench.action.quickOpen"
   },
   {
     "key": "ctrl+shift+j",
@@ -670,15 +654,6 @@
   {
     "key": "ctrl+n",
     "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "-workbench.action.showCommands",
-    "when": "terminalFocus"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "workbench.action.showCommands"
   },
   {
     "key": "ctrl+b",
