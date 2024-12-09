@@ -8,15 +8,12 @@
     "editor.quickSuggestions": {
         "other": "inline"
     },
-    //
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
         "**/*.code-search": true,
         "**/*dist": true
     },
-    // Language specific
-    // vim configurations
     "vim.leader": "<space>",
     "vim.incsearch": true,
     "vim.surround": true,
@@ -39,7 +36,6 @@
                 "workbench.files.action.compareWithClipboard"
             ]
         },
-        // LSP keybindings
         {
             "before": [
                 "g",
