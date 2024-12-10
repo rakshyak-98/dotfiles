@@ -17,13 +17,11 @@
     "vim.leader": "<space>",
     "vim.incsearch": true,
     "vim.surround": true,
-    "vim.smartRelativeLine": true,
     "vim.hlsearch": false,
     "vim.useSystemClipboard": true,
     "vim.foldfix": true,
     "vim.autoindent": true,
     "vim.inccommand": "replace",
-    "vim.shell": "/bin/bash",
     // "vim.whichwrap": "h,l,<,>",
     "vim.normalModeKeyBindings": [
         {
@@ -63,15 +61,6 @@
             ],
             "commands": [
                 "editor.action.peekImplementation"
-            ]
-        },
-        {
-            "before": [
-                "q",
-                "f"
-            ],
-            "commands": [
-                "editor.action.quickFix"
             ]
         },
         {
@@ -451,7 +440,6 @@
                 "y"
             ]
         },
-        // vim_visual
         {
             "before": [
                 "p"
@@ -502,31 +490,15 @@
                 "isInDiffEditor && !operationInProgress"
             ]
         },
-        {
-            "before": [
-                "p",
-            ],
-            "after": [
-                "p",
-                "g",
-                "v",
-                "y"
-            ]
-        }
     ],
     "vim.handleKeys": {
         "<C-k>": false,
         "<C-b>": false,
-        "<C-f>": false,
-    },
-    //terminal
-    "terminal.integrated.defaultProfile.linux": "bash",
-    // mis
+        "<C-f>": false, },
     "merge-conflict.diffViewPosition": "Beside",
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
-    "debug.toolBarLocation": "docked",
     "html.hover.references": false,
     "git.openRepositoryInParentFolders": "always",
     "git.autofetch": true,
@@ -534,19 +506,12 @@
         "sound": "off",
         "announcement": "off"
     },
-    "files.trimTrailingWhitespace": true,
-    "workbench.tree.indent": 10,
     "markdown.math.enabled": false,
     "cSpell.ignoreRegExpList": [
         "settings.json"
     ],
     "terminal.integrated.tabs.enabled": false,
-    "prettier.printWidth": 80,
-    "prettier.endOfLine": "lf",
     "window.commandCenter": false,
-    "workbench.editor.editorActionsLocation": "hidden",
-    "prettier.tabWidth": 2,
-    "prettier.useTabs": true,
     "explorer.confirmDelete": false,
     "breadcrumbs.icons": false,
     "editor.fontWeight": "100",
@@ -589,12 +554,10 @@
     "editor.quickSuggestionsDelay": 100,
     "editor.screenReaderAnnounceInlineSuggestion": false,
     "editor.suggest.filterGraceful": false,
-    "editor.snippetSuggestions": "none",
     "editor.suggest.showDeprecated": false,
     "editor.suggest.showWords": false,
     "editor.suggest.showUsers": false,
     "editor.suggest.showSnippets": false,
-    "files.eol": "\n",
     "cody.commandCodeLenses": false,
     "cody.commandHints.enabled": false,
     "cody.codeActions.enabled": false,
@@ -608,7 +571,6 @@
     "css.lint.universalSelector": "warning",
     "css.lint.unknownAtRules": "ignore",
     "editor.linkedEditing": true,
-    "editor.unicodeHighlight.includeComments": true,
     "workbench.editor.revealIfOpen": true,
     "emmet.variables": {
         "lang": "en"
@@ -619,35 +581,29 @@
     "files.trimFinalNewlines": true,
     "editor.inlineSuggest.suppressSuggestions": true,
     "editor.fontSize": 13,
-    "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
     "cody.autocomplete.enabled": true,
     "window.zoomPerWindow": false,
     "editor.minimap.enabled": false,
     "go.showWelcome": false,
-    "workbench.startupEditor": "none",
     "editor.inlayHints.enabled": "off",
     "workbench.editor.empty.hint": "hidden",
     "explorer.compactFolders": false,
     "go.toolsManagement.autoUpdate": true,
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "editor.suggest.showValues": false,
-    "workbench.sideBar.location": "right",
-    "editor.guides.highlightActiveBracketPair": false,
-    "editor.bracketPairColorization.enabled": false,
     "accessibility.verbosity.terminal": false,
-    "terminal.explorerKind": "external",
-    "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "liveServer.settings.donotShowInfoMsg": true,
-    "editor.multiCursorLimit": 10,
     "workbench.panel.defaultLocation": "top",
     "workbench.layoutControl.enabled": false,
-    "workbench.activityBar.location": "hidden",
     "window.customTitleBarVisibility": "auto",
     "chat.editor.fontSize": 12,
     "workbench.colorTheme": "GitHub Dark Dimmed",
     "files.autoSave": "onFocusChange",
-    "editor.fontFamily": "'JetBranis Mono','Droid Sans Mono', 'monospace', monospace",
     "editor.stickyScroll.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "vim.smartRelativeLine": true,
+    "editor.cursorStyle": "underline",
 }
