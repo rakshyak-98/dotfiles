@@ -332,19 +332,6 @@
         },
         {
             "before": [
-                "f",
-                "f"
-            ],
-            "commands": [
-                "editor.action.formatDocument"
-            ],
-            "when": [
-                "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-            ],
-            "silent": true,
-        },
-        {
-            "before": [
                 "<leader>",
                 "o",
                 "f"
@@ -494,7 +481,8 @@
     "vim.handleKeys": {
         "<C-k>": false,
         "<C-b>": false,
-        "<C-f>": false, },
+        "<C-f>": false,
+    },
     "merge-conflict.diffViewPosition": "Beside",
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
@@ -606,4 +594,10 @@
     "workbench.editor.editorActionsLocation": "hidden",
     "vim.smartRelativeLine": true,
     "editor.cursorStyle": "underline",
+    "editor.fontFamily": "JetBrains Mono, 'Droid Sans Mono', 'monospace', monospace",
+    // "editor.letterSpacing": 1.2,
+    "editor.inlayHints.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.cursorStyle": "underline",
+    "git.confirmSync": false,
 }
