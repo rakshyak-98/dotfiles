@@ -568,7 +568,6 @@
     "terminal.integrated.enablePersistentSessions": false,
     "files.trimFinalNewlines": true,
     "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.fontSize": 13,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
     "cody.autocomplete.enabled": true,
