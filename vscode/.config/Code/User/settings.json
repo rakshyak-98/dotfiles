@@ -12,7 +12,7 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/*.code-search": true,
-        "**/*dist": true
+        "**/*dist": true,
     },
     "vim.leader": "<space>",
     "vim.incsearch": true,
@@ -510,6 +510,7 @@
         "afplay",
         "autoindent",
         "bencode",
+        "bitfield",
         "Catppuccin",
         "clsx",
         "Commandline",
@@ -533,6 +534,7 @@
         "stackoverflow",
         "tailwindcss",
         "torrentfile",
+        "unchoke",
         "Upgrader",
         "viewsets"
     ],
@@ -571,6 +573,7 @@
     "workbench.editor.enablePreviewFromCodeNavigation": true,
     "cody.chat.defaultLocation": "editor",
     "cody.autocomplete.enabled": true,
+    "github.copilot.editor.enableAutoCompletions": true,
     "window.zoomPerWindow": false,
     "editor.minimap.enabled": false,
     "go.showWelcome": false,
@@ -599,4 +602,15 @@
     "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.cursorStyle": "underline",
     "git.confirmSync": false,
+    "editor.fontSize": 13,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.blame.statusBarItem.enabled": true,
 }
