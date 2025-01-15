@@ -733,5 +733,9 @@
     "key": "ctrl+shift+v",
     "command": "-notebook.cell.pasteAbove",
     "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "workbench.action.terminal.new"
   }
 ]
