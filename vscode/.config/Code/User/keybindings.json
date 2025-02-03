@@ -611,10 +611,6 @@
     "when": "!terminal.active'"
   },
   {
-    "key": "ctrl+q",
-    "command": "workbench.action.closeActiveEditor"
-  },
-  {
     "key": "ctrl+pageup",
     "command": "-workbench.action.previousEditor"
   },
@@ -635,10 +631,6 @@
     "key": "ctrl+k ctrl+0",
     "command": "-editor.foldAll",
     "when": "editorTextFocus && foldingEnabled"
-  },
-  {
-    "key": "ctrl+w",
-    "command": "-workbench.action.closeActiveEditor"
   },
   {
     "key": "ctrl+shift+y",
@@ -737,5 +729,9 @@
   {
     "key": "ctrl+shift+-",
     "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+k ctrl+w",
+    "command": "workbench.action.openWorkspace"
   }
 ]

@@ -162,10 +162,6 @@
       "commands": ["editor.action.showHover"]
     },
     {
-      "before": ["<leader>", "o", "f"],
-      "commands": ["workbench.action.files.showOpenedFileInNewWindow"]
-    },
-    {
       "before": ["z", "O"],
       "commands": ["editor.unfoldAll"]
     },
@@ -277,7 +273,7 @@
   ],
   // "window.customTitleBarVisibility": "auto",
   // "workbench.layoutControl.enabled": false,
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "compact",
   "editor.quickSuggestionsDelay": 100,
   "editor.screenReaderAnnounceInlineSuggestion": false,
   "editor.suggest.filterGraceful": false,
@@ -305,7 +301,7 @@
   "files.trimFinalNewlines": true,
   "editor.inlineSuggest.suppressSuggestions": true,
   "workbench.editor.enablePreviewFromCodeNavigation": true,
-  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.enableAutoCompletions": false,
   "window.zoomPerWindow": false,
   "editor.minimap.enabled": false,
   "go.showWelcome": false,
@@ -317,10 +313,9 @@
   "editor.suggest.showValues": false,
   "accessibility.verbosity.terminal": false,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.panel.defaultLocation": "top",
+  "workbench.panel.defaultLocation": "bottom",
   "workbench.layoutControl.enabled": false,
   "chat.editor.fontSize": 12,
-  "workbench.colorTheme": "GitHub Dark Dimmed",
   "files.autoSave": "onFocusChange",
   "editor.stickyScroll.enabled": false,
   "workbench.sideBar.location": "right",
@@ -344,8 +339,17 @@
   "editor.lineNumbers": "relative",
   "workbench.activityBar.location": "top",
   "diffEditor.ignoreTrimWhitespace": false,
-  "terminal.integrated.tabs.enabled": false,
   "javascript.suggest.includeCompletionsForImportStatements": false,
   "javascript.updateImportsOnPaste.enabled": false,
-  "notebook.defaultFormatter": "esbenp.prettier-vscode"
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.tabs.enabled": false
 }
