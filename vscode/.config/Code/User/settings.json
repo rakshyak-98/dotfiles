@@ -351,5 +351,10 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "terminal.integrated.tabs.enabled": false
+  "terminal.integrated.tabs.enabled": false,
+  "eslint.rules.customizations": [
+    {"rule": "no-console", "severity": "warn"},
+    { "rule": "semi", "severity": "error" },
+    { "rule": "quotes", "severity": "error" }
+  ],
 }
