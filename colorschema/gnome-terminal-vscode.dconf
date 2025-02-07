@@ -1,0 +1,14 @@
+[legacy]
+default-show-menubar=false
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(30,30,30)'
+bold-is-bright=false
+font='JetBrainsMono Nerd Font 10'
+foreground-color='rgb(212,212,212)'
+cursor-color='rgb(255,255,255)'
+login-shell=true
+palette=['rgb(0,0,0)', 'rgb(244,71,71)', 'rgb(96,139,78)', 'rgb(220,220,170)', 'rgb(86,156,214)', 'rgb(197,134,192)', 'rgb(78,201,176)', 'rgb(212,212,212)', 'rgb(128,128,128)', 'rgb(209,105,105)', 'rgb(181,206,168)', 'rgb(215,186,125)', 'rgb(156,220,254)', 'rgb(209,109,158)', 'rgb(79,193,255)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+
