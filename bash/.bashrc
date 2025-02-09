@@ -125,3 +125,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Load Angular CLI autocompletion.
 # source <(ng completion script)
+
+complete -C /usr/bin/terraform terraform
+complete -C "$(command -v aws_completer)" aws
