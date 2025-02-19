@@ -101,11 +101,6 @@
       "after": ["<C-w>", "<C-k>"]
     },
     {
-      "commands": ["workbench.action.quickOpen"],
-      "when": ["!workbench.action.terminal.focus"],
-      "before": ["<leader>", "f"]
-    },
-    {
       "commands": ["workbench.action.splitEditorUp"],
       "before": ["<C-w>", "k"]
     },
@@ -189,6 +184,10 @@
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
+      "commands": ["editor.action.formatSelection"],
+      "before": ["<leader>", "f", "f"]
+    },
+    {
       "before": ["p"],
       "after": ["p", "g", "v", "y"]
     },
@@ -210,7 +209,7 @@
     },
     {
       "commands": ["git.revertSelectedRanges"],
-      "before": ["<leader>", "g", "r"],
+      "before": ["g", "r", "r"],
       "when": ["isInDiffEditor && !operationInProgress"]
     }
   ],
@@ -261,6 +260,8 @@
     "mozwebkit",
     "Noto",
     "Parens",
+    "Partitioner",
+    "Partitioners",
     "Picsum",
     "reduxjs",
     "resave",
