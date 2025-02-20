@@ -166,7 +166,7 @@
     },
     // vim_git
     {
-      "before": ["<leader>", "g", "c", "c"],
+      "before": ["g", "c", "c"],
       "commands": ["git.openChange"],
       "silent": true
     },
