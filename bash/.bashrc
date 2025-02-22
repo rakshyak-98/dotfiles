@@ -128,3 +128,4 @@ export NVM_DIR="$HOME/.nvm"
 
 complete -C /usr/bin/terraform terraform
 complete -C "$(command -v aws_completer)" aws
+. "/home/ubuntu/.deno/env"
