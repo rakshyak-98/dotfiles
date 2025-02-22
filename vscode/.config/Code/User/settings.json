@@ -101,16 +101,12 @@
       "after": ["<C-w>", "<C-k>"]
     },
     {
-      "commands": ["workbench.action.splitEditorUp"],
-      "before": ["<C-w>", "k"]
-    },
-    {
       "commands": ["workbench.action.splitEditorLeft"],
-      "before": ["<C-w>", "l"]
+      "before": ["s", "g"]
     },
     {
       "commands": ["workbench.action.splitEditorRight"],
-      "before": ["<C-w>", "h"]
+      "before": ["s", "h"]
     },
     {
       "commands": ["workbench.action.files.save"],
@@ -358,4 +354,5 @@
     { "rule": "semi", "severity": "error" },
     { "rule": "quotes", "severity": "error" }
   ],
+  "editor.colorDecorators": false,
 }
