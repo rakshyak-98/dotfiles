@@ -9,10 +9,20 @@
     "other": "inline"
   },
   "search.exclude": {
-    "**/node_modules": true,
+    "**/node_modules/": true,
     "**/bower_components": true,
     "**/*.code-search": true,
-    "**/*dist": true
+    "**/dist": true,
+    "**/build": true
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
   },
   "vim.leader": "<space>",
   "vim.incsearch": true,
@@ -33,7 +43,7 @@
       "commands": ["editor.action.peekDefinition"]
     },
     {
-      "before": ["g", "i"],
+      "before": ["<leader>", "g", "i"],
       "commands": ["editor.action.goToImplementation"]
     },
     {
@@ -41,7 +51,7 @@
       "commands": ["editor.action.peekImplementation"]
     },
     {
-      "before": ["g", "r"],
+      "before": ["<leader>", "g", "r"],
       "commands": ["editor.action.referenceSearch.trigger"]
     },
     {
@@ -81,10 +91,6 @@
       "silent": true
     },
     {
-      "commands": ["workbench.action.openWorkspace"],
-      "before": ["leader", "w"]
-    },
-    {
       "before": ["<C-h>"],
       "after": ["<C-w>", "<C-h>"]
     },
@@ -102,11 +108,11 @@
     },
     {
       "commands": ["workbench.action.splitEditorLeft"],
-      "before": ["s", "g"]
+      "before": ["<C-w>", "l"]
     },
     {
-      "commands": ["workbench.action.splitEditorRight"],
-      "before": ["s", "h"]
+      "commands": ["workbench.action.splitEditorDown"],
+      "before": ["<C-w>", "j"]
     },
     {
       "commands": ["workbench.action.files.save"],
@@ -270,7 +276,7 @@
   ],
   // "window.customTitleBarVisibility": "auto",
   // "workbench.layoutControl.enabled": false,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "toggle",
   "editor.quickSuggestionsDelay": 100,
   "editor.screenReaderAnnounceInlineSuggestion": false,
   "editor.suggest.filterGraceful": false,
@@ -298,7 +304,6 @@
   "files.trimFinalNewlines": true,
   "editor.inlineSuggest.suppressSuggestions": true,
   "workbench.editor.enablePreviewFromCodeNavigation": true,
-  "github.copilot.editor.enableAutoCompletions": false,
   "window.zoomPerWindow": false,
   "editor.minimap.enabled": false,
   "go.showWelcome": false,
@@ -309,11 +314,9 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "editor.suggest.showValues": false,
   "accessibility.verbosity.terminal": false,
-  "liveServer.settings.donotShowInfoMsg": true,
   "workbench.panel.defaultLocation": "bottom",
   "workbench.layoutControl.enabled": false,
   "chat.editor.fontSize": 12,
-  "files.autoSave": "onFocusChange",
   "editor.stickyScroll.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.editor.editorActionsLocation": "hidden",
@@ -323,21 +326,10 @@
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "git.confirmSync": false,
   "editor.fontSize": 13,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "git.blame.statusBarItem.enabled": true,
   "editor.lineNumbers": "relative",
   "workbench.activityBar.location": "top",
   "diffEditor.ignoreTrimWhitespace": false,
-  "javascript.suggest.includeCompletionsForImportStatements": false,
-  "javascript.updateImportsOnPaste.enabled": false,
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -350,9 +342,19 @@
   },
   "terminal.integrated.tabs.enabled": false,
   "eslint.rules.customizations": [
-    {"rule": "no-console", "severity": "warn"},
+    { "rule": "no-console", "severity": "warn" },
     { "rule": "semi", "severity": "error" },
     { "rule": "quotes", "severity": "error" }
   ],
   "editor.colorDecorators": false,
+  "workbench.tree.indent": 20,
+  "terminal.explorerKind": "external",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "editor.indentSize": "tabSize",
+  "cody.autocomplete.triggerDelay": 8000,
+  "workbench.startupEditor": "none",
+  "window.customTitleBarVisibility": "auto",
 }
