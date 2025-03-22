@@ -1,28 +1,15 @@
 {
-  "workbench.editor.showTabs": "none",
   "workbench.tree.enableStickyScroll": false,
-  "editor.selectionHighlight": false,
-  "editor.occurrencesHighlight": "off",
   "editor.stickyScroll.scrollWithEditor": false,
   "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   "editor.quickSuggestions": {
     "other": "inline"
   },
   "search.exclude": {
-    "**/node_modules/": true,
+    "**/node_modules": true,
     "**/bower_components": true,
     "**/*.code-search": true,
-    "**/dist": true,
-    "**/build": true
-  },
-  "files.exclude": {
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/CVS": true,
-    "**/Thumbs.db": true,
-    "**/node_modules": true
+    "**/*dist": true
   },
   "vim.leader": "<space>",
   "vim.incsearch": true,
@@ -39,20 +26,24 @@
       "commands": ["workbench.files.action.compareWithClipboard"]
     },
     {
+      "before": ["g", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "p", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
       "before": ["g", "p", "d"],
       "commands": ["editor.action.peekDefinition"]
     },
     {
-      "before": ["<leader>", "g", "i"],
-      "commands": ["editor.action.goToImplementation"]
-    },
-    {
       "before": ["g", "p", "i"],
       "commands": ["editor.action.peekImplementation"]
-    },
-    {
-      "before": ["<leader>", "g", "r"],
-      "commands": ["editor.action.referenceSearch.trigger"]
     },
     {
       "before": ["<leader>", "d", "d"],
@@ -108,11 +99,11 @@
     },
     {
       "commands": ["workbench.action.splitEditorLeft"],
-      "before": ["<C-w>", "l"]
+      "before": ["s", "h"]
     },
     {
       "commands": ["workbench.action.splitEditorDown"],
-      "before": ["<C-w>", "j"]
+      "before": ["s", "v"]
     },
     {
       "commands": ["workbench.action.files.save"],
@@ -232,13 +223,14 @@
     "announcement": "off"
   },
   "markdown.math.enabled": false,
-  "cSpell.ignoreRegExpList": ["settings.json"],
-  "window.commandCenter": false,
+  "cSpell.ignoreRegExpList": [
+    "settings.json"
+  ],
   "explorer.confirmDelete": false,
   "breadcrumbs.icons": false,
   "editor.fontWeight": "100",
   "terminal.integrated.fontWeight": "100",
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 12,
   "extensions.ignoreRecommendations": true,
   "cSpell.userWords": [
     "afplay",
@@ -276,7 +268,7 @@
   ],
   // "window.customTitleBarVisibility": "auto",
   // "workbench.layoutControl.enabled": false,
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "compact",
   "editor.quickSuggestionsDelay": 100,
   "editor.screenReaderAnnounceInlineSuggestion": false,
   "editor.suggest.filterGraceful": false,
@@ -285,16 +277,14 @@
   "editor.suggest.showUsers": false,
   "editor.suggest.showSnippets": false,
   "editor.wordBasedSuggestions": "currentDocument",
+  "editor.fontSize": 12.5,
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false,
   "editor.suggestSelection": "recentlyUsedByPrefix",
-  "workbench.editor.dragToOpenWindow": false,
   "debug.console.fontSize": 11.5,
   "css.format.spaceAroundSelectorSeparator": true,
   "css.lint.universalSelector": "warning",
   "css.lint.unknownAtRules": "ignore",
-  "editor.linkedEditing": true,
-  "workbench.editor.revealIfOpen": true,
   "emmet.variables": {
     "lang": "en"
   },
@@ -303,7 +293,7 @@
   "terminal.integrated.enablePersistentSessions": false,
   "files.trimFinalNewlines": true,
   "editor.inlineSuggest.suppressSuggestions": true,
-  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "github.copilot.editor.enableAutoCompletions": false,
   "window.zoomPerWindow": false,
   "editor.minimap.enabled": false,
   "go.showWelcome": false,
@@ -314,6 +304,7 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "editor.suggest.showValues": false,
   "accessibility.verbosity.terminal": false,
+  "liveServer.settings.donotShowInfoMsg": true,
   "workbench.panel.defaultLocation": "bottom",
   "workbench.layoutControl.enabled": false,
   "chat.editor.fontSize": 12,
@@ -325,11 +316,13 @@
   "editor.inlayHints.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "git.confirmSync": false,
-  "editor.fontSize": 13,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "git.blame.statusBarItem.enabled": true,
   "editor.lineNumbers": "relative",
   "workbench.activityBar.location": "top",
   "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.suggest.includeCompletionsForImportStatements": false,
+  "javascript.updateImportsOnPaste.enabled": false,
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -342,19 +335,15 @@
   },
   "terminal.integrated.tabs.enabled": false,
   "eslint.rules.customizations": [
-    { "rule": "no-console", "severity": "warn" },
+    {"rule": "no-console", "severity": "warn"},
     { "rule": "semi", "severity": "error" },
     { "rule": "quotes", "severity": "error" }
   ],
-  "editor.colorDecorators": false,
-  "workbench.tree.indent": 20,
-  "terminal.explorerKind": "external",
-  "[jsonc]": {
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.wordWrap": "on",
-  "editor.indentSize": "tabSize",
-  "cody.autocomplete.triggerDelay": 8000,
   "workbench.startupEditor": "none",
-  "window.customTitleBarVisibility": "auto",
+  "window.commandCenter": false,
+  "workbench.editor.showTabs": "none",
+  "prettier.tabWidth": 4,
 }

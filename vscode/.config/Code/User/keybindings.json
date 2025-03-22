@@ -18,7 +18,7 @@
   },
   {
     "key": "ctrl+p",
-    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
     "when": "inFilesPicker && inQuickOpen"
   },
   {
@@ -218,11 +218,6 @@
     "when": "debugState == 'stopped'"
   },
   {
-    "key": "ctrl+shift+e",
-    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
-  },
-  {
     "key": "ctrl+shift+alt+up",
     "command": "-editor.action.copyLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
@@ -331,15 +326,6 @@
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "ctrl+alt+b",
-    "command": "-workbench.action.toggleAuxiliaryBar"
-  },
-  {
-    "key": "alt+b",
-    "command": "workbench.action.toggleAuxiliaryBar",
-    "when": "editorTextFocus && !editorReadonly || !editorTextFocus"
-  },
-  {
     "key": "ctrl+[",
     "command": "-editor.action.outdentLines",
     "when": "editorTextFocus && !editorReadonly"
@@ -348,11 +334,6 @@
     "key": "ctrl+k ctrl+[",
     "command": "-editor.foldRecursively",
     "when": "editorTextFocus && foldingEnabled"
-  },
-  {
-    "key": "ctrl+shift+p",
-    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-    "when": "inFilesPicker && inQuickOpen"
   },
   {
     "key": "ctrl+k ctrl+\\",
@@ -442,8 +423,9 @@
     "when": "editorFocus || editorIsOpen !terminal.active"
   },
   {
-    "key": "ctrl+0",
-    "command": "-workbench.action.focusSideBar"
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
   },
   {
     "key": "shift+alt+f8",
@@ -563,10 +545,6 @@
     "command": "-workbench.action.zoomIn"
   },
   {
-    "key": "ctrl+\\",
-    "command": "workbench.action.toggleMaximizedPanel"
-  },
-  {
     "key": "ctrl+w",
     "command": "-workbench.action.closeGroup",
     "when": "activeEditorGroupEmpty && multipleEditorGroups"
@@ -618,14 +596,6 @@
         "y"
       ]
     }
-  },
-  {
-    "key": "ctrl+n",
-    "command": "-workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "key": "ctrl+b",
-    "command": "workbench.action.toggleSidebarVisibility",
   },
   {
     "key": "ctrl+k ctrl+pagedown",
@@ -700,13 +670,5 @@
     "key": "ctrl+k ctrl+f",
     "command": "-editor.action.formatSelection",
     "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+h",
-    "command": "workbench.action.focusLeftGroup"
-  },
-  {
-    "key": "ctrl+k ctrl+left",
-    "command": "-workbench.action.focusLeftGroup"
-  },
+  }
 ]
