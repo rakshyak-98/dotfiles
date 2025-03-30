@@ -260,11 +260,13 @@
     "reduxjs",
     "resave",
     "stackoverflow",
+    "subarrays",
     "tailwindcss",
     "torrentfile",
     "unchoke",
     "Upgrader",
-    "viewsets"
+    "viewsets",
+    "VITE"
   ],
   // "window.customTitleBarVisibility": "auto",
   // "workbench.layoutControl.enabled": false,
@@ -345,5 +347,5 @@
   "workbench.startupEditor": "none",
   "window.commandCenter": false,
   "workbench.editor.showTabs": "none",
-  "prettier.tabWidth": 4,
+  "prettier.tabWidth": 2,
 }

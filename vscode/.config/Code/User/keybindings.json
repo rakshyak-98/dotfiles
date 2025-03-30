@@ -423,11 +423,6 @@
     "when": "editorFocus || editorIsOpen !terminal.active"
   },
   {
-    "key": "ctrl+shift+c",
-    "command": "-workbench.action.terminal.openNativeConsole",
-    "when": "!terminalFocus"
-  },
-  {
     "key": "shift+alt+f8",
     "command": "-editor.action.marker.prev",
     "when": "editorFocus"
