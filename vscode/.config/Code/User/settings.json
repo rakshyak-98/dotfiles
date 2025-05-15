@@ -9,7 +9,8 @@
     "**/node_modules": true,
     "**/bower_components": true,
     "**/*.code-search": true,
-    "**/*dist": true
+    "**/*dist": true,
+    "**/*build-output": true,
   },
   "vim.leader": "<space>",
   "vim.incsearch": true,
@@ -230,7 +231,7 @@
   "breadcrumbs.icons": false,
   "editor.fontWeight": "100",
   "terminal.integrated.fontWeight": "100",
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 13,
   "extensions.ignoreRecommendations": true,
   "cSpell.userWords": [
     "afplay",
@@ -241,6 +242,7 @@
     "clsx",
     "Commandline",
     "deque",
+    "ezee",
     "foldfix",
     "godotenv",
     "grayscale",
@@ -261,6 +263,8 @@
     "resave",
     "stackoverflow",
     "subarrays",
+    "supabase",
+    "superbase",
     "tailwindcss",
     "torrentfile",
     "unchoke",
@@ -279,7 +283,7 @@
   "editor.suggest.showUsers": false,
   "editor.suggest.showSnippets": false,
   "editor.wordBasedSuggestions": "currentDocument",
-  "editor.fontSize": 12.5,
+  "editor.fontSize": 13,
   "javascript.suggestionActions.enabled": false,
   "typescript.suggestionActions.enabled": false,
   "editor.suggestSelection": "recentlyUsedByPrefix",
@@ -348,4 +352,11 @@
   "window.commandCenter": false,
   "workbench.editor.showTabs": "none",
   "prettier.tabWidth": 2,
+  "todohighlight.isEnable": true,
+  "remote.defaultExtensionsIfInstalledLocally": [
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "workbench.colorTheme": "Material Dark Theme",
 }
